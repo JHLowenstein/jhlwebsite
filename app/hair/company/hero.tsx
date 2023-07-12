@@ -48,7 +48,7 @@ export default function Hero() {
           <div className='max-w-3xl mx-auto '>
             <div className='text-center pb-12 md:pb-5'>
               <h5
-                className='h5 my-10 z-10 text-[5rem] text-transparent duration-1000  cursor-default    whitespace-nowrap bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700  inline-flex flex-col gap-1 transition font-display  font-bold leading-none'
+                className='h5 my-10 z-10 text-[5rem] text-transparent duration-1000  cursor-default whitespace-nowrap bg-clip-text bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 inline-flex flex-col gap-1 transition font-display  font-bold leading-none'
                 data-aos='fade-up'
               >
                 Company
