@@ -7,7 +7,7 @@ export default function Hero() {
     <section>
       <div className='max-w-6xl mx-auto px-4 sm:px-6 relative'>
         {/* Illustration behind hero content */}
-        {/* <div
+        <div
           className='absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none'
           aria-hidden='true'
           data-aos='fade-up'
@@ -41,7 +41,7 @@ export default function Hero() {
               fill='url(#illustration-02)'
             />
           </svg>
-        </div> */}
+        </div>
 
         {/* Hero content */}
         <div className='relative pt-100 pb-10 md:pt-40 md:pb-16'>

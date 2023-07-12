@@ -7,7 +7,7 @@ export default function Hero() {
     <section>
       <div className='max-w-6xl mx-auto px-4 sm:px-6 relative'>
         {/* Illustration behind hero content */}
-        {/* <div
+        <div
           className='absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none'
           aria-hidden='true'
           data-aos='fade-up'
@@ -41,7 +41,7 @@ export default function Hero() {
               fill='url(#illustration-02)'
             />
           </svg>
-        </div> */}
+        </div>
 
         {/* Hero content */}
         <div className='relative pt-100 pb-10 md:pt-40 md:pb-16'>
@@ -66,17 +66,17 @@ export default function Hero() {
               data-aos='fade-up'
               data-aos-delay='200'
             >
-              With over 100 years of experience in the chemistry of fur dyeing
-              and processing, JHL is the world leader in fur technology.
+              We have over 100 years of experience in the chemistry of fur
+              dyeing and processing.
             </h3>
 
-            {/* <h4
+            <h4
               className='h4 text-gray-500 mb-5'
               data-aos='fade-up'
               data-aos-delay='200'
             >
-          
-            </h4> */}
+              JHL is the world leader in fur technology.
+            </h4>
             <div className='max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center mb-20'>
               <div data-aos='fade-up' data-aos-delay='400'>
                 <a
