@@ -76,7 +76,7 @@ export default function Footer() {
               </div>
 
               {/* 3rd block */}
-              <div className='text-sm'>
+              {/* <div className='text-sm'>
                 <h6 className='text-gray-200 font-medium mb-1'>Fur</h6>
                 <ul>
                   <li className='mb-1'>
@@ -112,10 +112,10 @@ export default function Footer() {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
 
               {/* 4th block */}
-              <div className='text-sm'>
+              {/* <div className='text-sm'>
                 <h6 className='text-gray-200 font-medium mb-1'>Leather</h6>
                 <ul>
                   <li className='mb-1'>
@@ -151,7 +151,7 @@ export default function Footer() {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
 
