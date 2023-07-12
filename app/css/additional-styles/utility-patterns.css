@@ -83,3 +83,9 @@
 .form-radio {
   @apply text-purple-600;
 }
+
+@media (max-width: 768px) {
+  .mt7 {
+    @apply mt-40 /* Margin Top for mobile devices */;
+  }
+}

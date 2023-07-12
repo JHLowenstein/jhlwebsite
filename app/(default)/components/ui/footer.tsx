@@ -42,7 +42,7 @@ export default function Footer() {
                 <ul>
                   <li className='mb-1'>
                     <Link
-                      href='/'
+                      href='/hair/products'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
                       Products
@@ -58,7 +58,7 @@ export default function Footer() {
                   </li>
                   <li className='mb-1'>
                     <Link
-                      href='/'
+                      href='/hair/company'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
                       Company

@@ -17,6 +17,7 @@ export default function Banner() {
                 target=''
                 rel='noreferrer'
               >
+                {' '}
                 <span className=' sm:inline'> Email</span>
               </a>{' '}
               <span className='italic px-1.5'>or</span>{' '}
@@ -26,7 +27,7 @@ export default function Banner() {
                 target='_blank'
                 rel='noreferrer'
               >
-                Call Us
+                Call
               </a>
             </div>
             <button

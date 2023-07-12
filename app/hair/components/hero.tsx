@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Hero() {
   return (
     <section>
-      <div className='max-w-6xl mx-auto px-4 sm:px-6 relative'>
+      <div className='max-w-6xl mx-auto px-4 sm:px-6  relative'>
         {/* Illustration behind hero content */}
         <div
           className='absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none'
@@ -44,40 +44,43 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className='relative pt-100 pb-10 md:pt-40 md:pb-16'>
-          <div className='max-w-3xl mx-auto text-center pb-12 md:pb-16'>
-            <h1
-              className='h1 mb-4 z-10 text-[10rem] text-transparent duration-1000  cursor-default  animate-title  whitespace-nowrap bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700  inline-flex flex-col gap-1 transition font-display  font-bold leading-none'
-              data-aos='fade-up'
-            >
-              Hair
-            </h1>
-            <Image
-              alt='JHL Hair Model'
-              src={HairModel}
-              width='200'
-              height='175'
-              style={{ margin: 'auto' }}
-              data-aos='fade-up'
-              data-aos-delay='200'
-            />
-            <h3
-              className='h3 text-gray-400 mb-1 mt-10'
-              data-aos='fade-up'
-              data-aos-delay='200'
-            >
-              JHL provides a complete line of raw materials for the hair color
-              manufacturer.
-            </h3>
+        <div className='relative pt-100 pb-10 mt7 pt-30 md:pt-40 md:pb-16 '>
+          <div className='max-w-3xl mx-auto  pb-12 md:pb-16'>
+            <div className='text-center'>
+              <h1
+                className='h1 mb-4 z-10 text-[10rem] text-transparent duration-1000  cursor-default  animate-title  whitespace-nowrap bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700  inline-flex flex-col gap-1 transition font-display  font-bold leading-none'
+                data-aos='fade-up'
+              >
+                Hair
+              </h1>
 
-            <h4
-              className='h4 text-gray-500 mb-5'
-              data-aos='fade-up'
-              data-aos-delay='200'
-            >
-              Our technical staff is well versed in all phases of the hair color
-              formulator’s requirements.
-            </h4>
+              <Image
+                alt='JHL Hair Model'
+                src={HairModel}
+                width='200'
+                height='175'
+                style={{ margin: 'auto' }}
+                data-aos='fade-up'
+                data-aos-delay='200'
+              />
+              <h3
+                className='h3 text-gray-400 mb-1 mt-10'
+                data-aos='fade-up'
+                data-aos-delay='200'
+              >
+                JHL provides a complete line of raw materials for the hair color
+                manufacturer.
+              </h3>
+
+              <h4
+                className='h4 text-gray-500 mb-5'
+                data-aos='fade-up'
+                data-aos-delay='200'
+              >
+                Our technical staff is well versed in all phases of the hair
+                color formulator’s requirements.
+              </h4>
+            </div>
             <div className='max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center mb-20'>
               <div data-aos='fade-up' data-aos-delay='400'>
                 <a

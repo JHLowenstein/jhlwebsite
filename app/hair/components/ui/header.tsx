@@ -11,7 +11,7 @@ export default function Header() {
           {/* Site branding */}
           <div className='shrink-0 mr-4'>
             {/* Logo */}
-            <Link href='/' className='block' aria-label='JHL Logo'>
+            <Link href='/hair' className='block' aria-label='JHL Logo'>
               <Image
                 alt='logo'
                 src={Logo}
@@ -27,7 +27,7 @@ export default function Header() {
             <ul className='flex grow justify-end flex-wrap items-center'>
               <li>
                 <Link
-                  href='/signin'
+                  href='/hair/company'
                   className='font-medium text-zinc-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
                   Company
