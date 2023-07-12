@@ -10,6 +10,7 @@ export const metadata = {
 import Hero from '@/app/hair/components/hero'
 import React from 'react'
 import Particles from '@/app/hair/components/particles'
+import ZigZag from '@/app/hair/components/zigzag'
 
 export default function HairProductsf() {
   return (
@@ -21,6 +22,7 @@ export default function HairProductsf() {
           quantity={100}
         />
         <Hero />
+        <ZigZag />
       </div>
     </>
   )

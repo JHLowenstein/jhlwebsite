@@ -1,4 +1,4 @@
-import HairModel from '@/public/images/jhl6.svg'
+import FurModel from '@/public/images/jhl4.svg'
 import HairDye from '@/public/images/jhl5.svg'
 import Image from 'next/image'
 
@@ -50,11 +50,11 @@ export default function Hero() {
               className='h1 mb-4 z-10 text-[10rem] text-transparent duration-1000  cursor-default  animate-title  whitespace-nowrap bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700  inline-flex flex-col gap-1 transition font-display  font-bold leading-none'
               data-aos='fade-up'
             >
-              Hair
+              Fur
             </h1>
             <Image
               alt='JHL Hair Model'
-              src={HairModel}
+              src={FurModel}
               width='200'
               height='175'
               style={{ margin: 'auto' }}
@@ -66,24 +66,23 @@ export default function Hero() {
               data-aos='fade-up'
               data-aos-delay='200'
             >
-              JHL provides a complete line of raw materials for the hair color
-              manufacturer.
+              With over 100 years of experience in the chemistry of fur dyeing
+              and processing, JHL is the world leader in fur technology.
             </h3>
 
-            <h4
+            {/* <h4
               className='h4 text-gray-500 mb-5'
               data-aos='fade-up'
               data-aos-delay='200'
             >
-              Our technical staff is well versed in all phases of the hair color
-              formulator’s requirements.
-            </h4>
+          
+            </h4> */}
             <div className='max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center mb-20'>
               <div data-aos='fade-up' data-aos-delay='400'>
                 <a
                   className='btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4
 sm:w-auto sm:mb-0'
-                  href='/hair/products'
+                  href='/fur/products'
                 >
                   Products
                 </a>
@@ -105,13 +104,13 @@ sm:w-auto sm:ml-4'
                   data-aos='fade-up'
                   data-aos-delay='200'
                 >
-                  <span className='text-rose-500'>DYE INTERMEDIATES</span> for
-                  permanent hair color are available, along with specially
-                  formulated bases and developers. The base materials for cream
-                  and liquid formulations are designed for maximum color
-                  deposition along with superior conditioning. Dyestuff and base
-                  materials are also available for semi-permanent and specialty
-                  systems.
+                  <span className='text-green-500'>
+                    FROM SINGLE, DOUBLE & TRIPLE REINFORCING,
+                  </span>
+                  to oxidation dyeing to bright acid dyeing for sheepskin and
+                  fine furs, such as mink, fox or sable, our technological
+                  expertise and creative flair has distinguished JHL as the
+                  leading supplier to the world’s fur dressers and dyers.
                 </h4>
               </div>
               <div className='md:w-1/2 my-20 mx-5'>
