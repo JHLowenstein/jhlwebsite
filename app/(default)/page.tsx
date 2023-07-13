@@ -8,6 +8,7 @@ export const metadata = {
 }
 
 import Hero from '@/app/(default)/components/hero'
+import Features from '@/app/(default)/components/features'
 import React from 'react'
 import Particles from '@/app/(default)/components/particles'
 
@@ -21,6 +22,7 @@ export default function Home() {
           quantity={100}
         />
         <Hero />
+        <Features />
       </div>
     </>
   )

@@ -58,7 +58,7 @@ export default function Testimonials() {
 
               <div className='text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700'>
                 <cite className='text-gray-200 not-italic'>
-                  <span className='font-bold'>David Lowenstein</span>, President
+                  <span className='font-bold'>Steve Lowenstein</span>, Chairman
                 </cite>{' '}
                 -{' '}
               </div>
