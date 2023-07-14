@@ -70,7 +70,7 @@ export default function Hero() {
               PERFECTING THE ART OF COLOR FORMULATIONS
             </h5>
 
-            <div className='container mx-auto px-5 mt-8 grid gap-2 md:mt-16 md:grid-cols-3 md:flex-row'>
+            <div className='container mx-auto  mt-8 grid gap-1 md:mt-16 md:grid-cols-3 md:flex-row'>
               <CardSection
                 title='HAIR'
                 link='/hair'
