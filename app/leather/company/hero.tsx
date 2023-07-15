@@ -1,7 +1,6 @@
-import HeroContent from '@/app/hair/products/components/heroContent'
-
-import { timelineData } from '@/app/hair/products/components/timelineData'
-import { tableData } from '@/app/hair/products/components/tableData'
+import ContentA from '@/app/hair/company/contentA'
+import ContentB from '@/app/hair/company/contentB'
+import ContentC from '@/app/hair/company/contentC'
 
 export default function Hero() {
   return (
@@ -10,7 +9,9 @@ export default function Hero() {
         {/* Hero content */}
         <div className='relative pt-100 pb-10 mt7 md:pt-40 md:pb-16'>
           <div className=' mx-auto '>
-            <HeroContent />
+            <ContentA />
+            <ContentB />
+            <ContentC />
           </div>
         </div>
       </div>

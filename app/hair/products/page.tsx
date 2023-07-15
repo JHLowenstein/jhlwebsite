@@ -6,9 +6,10 @@ export const metadata = {
   description:
     'Since 1897, Jos. H. Lowenstein &amp; Sons, Inc. has been providing the world of fashion with brilliant, trend-setting colors for the fur, hair and leather industries all over the world. From a modest paint store in Brooklyn, New York to the technologically driven, quality dyestuff manufacturer we are today, JHL has prided itself on providing its customers with state-of-the-art dye products and impeccable personalized service. April 2003 JHL underwent a formal ISO 9001 audit. We passed with flying colors!',
 }
+import React from 'react'
 
 import Hero from '@/app/hair/products/components/hero'
-import React from 'react'
+import HairProducts from '@/app/hair/products/components/hairProducts'
 import Particles from '@/app/hair/components/particles'
 
 export default function HairProductsf() {
@@ -21,6 +22,7 @@ export default function HairProductsf() {
           quantity={100}
         />
         <Hero />
+        <HairProducts />
       </div>
     </>
   )

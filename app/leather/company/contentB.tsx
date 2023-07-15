@@ -7,12 +7,14 @@ export default function Content() {
     <section>
       <div className='max-w-8xl mx-auto px-4 sm:px-6 relative'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6'>
-          <div className='py-5 md:py-20'>
+          <div className='py-12 md:py-20 border-t border-gray-700'>
             {/* Section header */}
-            <div className='text-center mx-auto max-w-4xl pb-12 md:pb-16 '>
-              <h1 className='h1' data-aos='fade-up' data-aos-delay='200'>
-                Hair Services
-              </h1>
+            <div className='max-w-4xl mx-auto  pb-12 md:pb-16 text-center'>
+              {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}
+              <h2 className='h2' data-aos='fade-up' data-aos-delay='200'>
+                State-of-The Art Facilities Around the World Complement Our
+                Innovative Color
+              </h2>
             </div>
 
             {/* Items */}
@@ -38,23 +40,18 @@ export default function Content() {
                   data-aos='fade-right'
                 >
                   <div className='md:pr-4 lg:pr-12 xl:pr-16'>
-                    <h4 className='h4 mb-3 cursor-default text-gray-300'>
-                      Service, Quality and Value
-                    </h4>
+                    <h3 className='h3 mb-3 cursor-default text-gray-300'>
+                      HeadQuarters
+                    </h3>
                     <p className='text-gray-400 mb-4 text-bold'>
-                      <span className='font-bold'>
-                        JHL HAS DEDICATED ITSELF
-                      </span>{' '}
-                      to the individual needs of its customers—from
-                      multi-national, world-renowned corporations to small,
-                      privately held companies. Attention to detail, direct and
-                      immediate access to our technical and customer support
-                      personnel and the JHL commitment to personalized service
-                      assure you of trend setting, quality dyestuffs on all your
-                      products. Quicker turn around, accurate responses to your
-                      needs, and “on-time” deliveries allow you to bring your
-                      products to market sooner and gain the competitive edge
-                      you need to compete in today’s fast-paced environment.
+                      At JHL, we prioritize staying at the forefront of
+                      technological advancements. To ensure this, we
+                      consistently update and enhance our corporate headquarters
+                      in New York, which includes five state-of-the-art research
+                      and quality control laboratories. These cutting-edge
+                      facilities enable our dedicated team of researchers and
+                      scientists to conduct rigorous testing, analysis, and
+                      development of our products.
                     </p>
                   </div>
                 </div>
@@ -81,24 +78,17 @@ export default function Content() {
                   data-aos='fade-left'
                 >
                   <div className='md:pl-4 lg:pl-12 xl:pl-16'>
-                    <h4 className='h4 mb-3 text-gray-300'>
-                      Leading Edge Color Technology
-                    </h4>
+                    <h3 className='h3 mb-3 text-gray-300'>
+                      Leading Technology
+                    </h3>
                     <p className='text-gray-400 mb-4'>
-                      <span className='font-bold'>
-                        OUR EXPERT CHEMISTS AND TECHNICAL STAFF
-                      </span>
-                      , from around the world, respond quickly and accurately to
-                      provide formulation assistance, new color development,
-                      consultation, product line enhancement or help in solving
-                      complex dyeing issues for special applications. We’ll work
-                      with you every step of the way, from color development
-                      through product and delivery to ensure the ultimate in
-                      product integrity and customer satisfaction. Our
-                      laboratory facilities are available to you and your staff
-                      to test formulations or to work out a full pilot program.
-                      No matter what the situation, we are totally prepared to
-                      tailor solutions to our customers’ individual needs.
+                      Our commitment to quality and consistency is supported by
+                      state-of-the-art instrumentation. We utilize advanced
+                      equipment such as Gas Chromatographs, High-pressure Liquid
+                      Chromatographs, Infrared Spectrophotometers, and color
+                      measurement software. These cutting-edge tools ensure that
+                      every product meets our stringent quality standards and
+                      maintains consistent excellence.
                     </p>
                   </div>
                 </div>
@@ -125,18 +115,18 @@ export default function Content() {
                   data-aos='fade-right'
                 >
                   <div className='md:pr-4 lg:pr-12 xl:pr-16'>
-                    <h4 className='h4 mb-3'>
-                      Specialized Services For Hair Formulators
-                    </h4>
+                    <h3 className='h3 mb-3'>Global Distribution</h3>
                     <p className='text-gray-400 mb-4'>
-                      <span className='font-bold'>
-                        IN ADDITION TO THE COMPREHENSIVE SERVICE AND SUPPORT{' '}
-                      </span>
-                      provided to our customers, JHL hair color specialists and
-                      formulators also provide valuable insights into navigating
-                      rigorous regulatory issues, custom dye synthesis, and
-                      proprietary color formulation collaborations exclusively
-                      for your company.
+                      With over 100,000 square feet of manufacturing and
+                      warehouse space, we have the capacity to handle both large
+                      multi-ton orders and small one-color requests. Our global
+                      network of distribution facilities ensures efficient
+                      product delivery across various locations. Additionally,
+                      we have a dedicated team of scientists, product marketing
+                      specialists, expert sales agents, and customer service
+                      representatives who are committed to providing exceptional
+                      support. No matter the scale or complexity of your needs,
+                      JHL is uniquely prepared to fulfill them.
                     </p>
                   </div>
                 </div>

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import BKBridge from '@/public/images/testtubes.png'
 
-export default function Content() {
+export default function HeroContent() {
   return (
     <section>
       <div className='max-w-8xl mx-auto px-4 sm:px-6 relative'>

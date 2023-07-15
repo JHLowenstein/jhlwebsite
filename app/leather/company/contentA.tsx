@@ -10,8 +10,9 @@ export default function Content() {
           <div className='py-5 md:py-20'>
             {/* Section header */}
             <div className='text-center mx-auto max-w-4xl pb-12 md:pb-16 '>
+              {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}
               <h1 className='h1' data-aos='fade-up' data-aos-delay='200'>
-                Hair Services
+                We have Provided a Tradition of Excellence for Over 100 Years
               </h1>
             </div>
 
@@ -38,23 +39,18 @@ export default function Content() {
                   data-aos='fade-right'
                 >
                   <div className='md:pr-4 lg:pr-12 xl:pr-16'>
-                    <h4 className='h4 mb-3 cursor-default text-gray-300'>
-                      Service, Quality and Value
-                    </h4>
+                    <h3 className='h3 mb-3 cursor-default text-gray-300'>
+                      Our Story
+                    </h3>
                     <p className='text-gray-400 mb-4 text-bold'>
-                      <span className='font-bold'>
-                        JHL HAS DEDICATED ITSELF
-                      </span>{' '}
-                      to the individual needs of its customers—from
-                      multi-national, world-renowned corporations to small,
-                      privately held companies. Attention to detail, direct and
-                      immediate access to our technical and customer support
-                      personnel and the JHL commitment to personalized service
-                      assure you of trend setting, quality dyestuffs on all your
-                      products. Quicker turn around, accurate responses to your
-                      needs, and “on-time” deliveries allow you to bring your
-                      products to market sooner and gain the competitive edge
-                      you need to compete in today’s fast-paced environment.
+                      Since 1897, Jos. H. Lowenstein & Sons, Inc. has been
+                      providing the world of fashion with brilliant,
+                      trend-setting colors for the fur, hair and leather
+                      industries all over the world. From a modest paint store
+                      in Brooklyn, New York to the technologically driven,
+                      quality dyestuff manufacturer we are today, JHL has prided
+                      itself on providing its customers with state-of-the-art
+                      dye products and impeccable, personalized service.
                     </p>
                   </div>
                 </div>
@@ -81,24 +77,15 @@ export default function Content() {
                   data-aos='fade-left'
                 >
                   <div className='md:pl-4 lg:pl-12 xl:pl-16'>
-                    <h4 className='h4 mb-3 text-gray-300'>
-                      Leading Edge Color Technology
-                    </h4>
+                    <h3 className='h3 mb-3 text-gray-300'>Valued Clients</h3>
                     <p className='text-gray-400 mb-4'>
-                      <span className='font-bold'>
-                        OUR EXPERT CHEMISTS AND TECHNICAL STAFF
-                      </span>
-                      , from around the world, respond quickly and accurately to
-                      provide formulation assistance, new color development,
-                      consultation, product line enhancement or help in solving
-                      complex dyeing issues for special applications. We’ll work
-                      with you every step of the way, from color development
-                      through product and delivery to ensure the ultimate in
-                      product integrity and customer satisfaction. Our
-                      laboratory facilities are available to you and your staff
-                      to test formulations or to work out a full pilot program.
-                      No matter what the situation, we are totally prepared to
-                      tailor solutions to our customers’ individual needs.
+                      We are proud to serve a wide range of clients, from
+                      multinational, world-renowned corporations to small,
+                      privately held companies. Our diverse customer base is a
+                      testament to our ability to adapt and cater to various
+                      business needs. Whether you require large, multi-ton
+                      orders or have smaller, one-time requests, we have the
+                      resources to accommodate your specific requirements.
                     </p>
                   </div>
                 </div>
@@ -125,18 +112,16 @@ export default function Content() {
                   data-aos='fade-right'
                 >
                   <div className='md:pr-4 lg:pr-12 xl:pr-16'>
-                    <h4 className='h4 mb-3'>
-                      Specialized Services For Hair Formulators
-                    </h4>
+                    <h3 className='h3 mb-3'>Customized Products</h3>
                     <p className='text-gray-400 mb-4'>
-                      <span className='font-bold'>
-                        IN ADDITION TO THE COMPREHENSIVE SERVICE AND SUPPORT{' '}
-                      </span>
-                      provided to our customers, JHL hair color specialists and
-                      formulators also provide valuable insights into navigating
-                      rigorous regulatory issues, custom dye synthesis, and
-                      proprietary color formulation collaborations exclusively
-                      for your company.
+                      At JHL, we understand that each customer has unique dyeing
+                      needs. That's why our team of experienced chemists in all
+                      our laboratories is readily available to assist you
+                      throughout the entire process. Whether you require
+                      consultation, formulation support, new color development,
+                      or product line enhancements, our chemists are dedicated
+                      to finding tailored solutions for your specific
+                      requirements.
                     </p>
                   </div>
                 </div>

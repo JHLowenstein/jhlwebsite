@@ -10,6 +10,7 @@ export const metadata = {
 import Hero from '@/app/(default)/components/hero'
 import React from 'react'
 import Particles from '@/app/(default)/components/particles'
+import Features from '@/app/(default)/components/features'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           quantity={100}
         />
         <Hero />
+        <Features />
       </div>
     </>
   )
