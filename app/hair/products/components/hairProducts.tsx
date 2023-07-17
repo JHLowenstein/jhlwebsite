@@ -24,19 +24,10 @@ export default function HairProducts() {
         className='absolute inset-0  pointer-events-none mb-16'
         aria-hidden='true'
       ></div>
-      <div className='absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2'></div>
+      {/* <div className='absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2'></div> */}
 
       <div className='relative max-w-6xl mx-auto px-4 sm:px-6'>
-        <div className='pt-12 md:pt-20'>
-          {/* Section header */}
-          <div className='max-w-3xl mx-auto text-center pb-12 md:pb-16'>
-            <h1 className='h2 mb-4'>Explore the Products</h1>
-            <p className='text-xl text-gray-500 font-semibold'>
-              Our team at JHL is devoted to delivering the highest quality of
-              products to ensure our clients' satisfaction is always met
-            </p>
-          </div>
-
+        <div className='pt-5 md:pt-5'>
           {/* Section content */}
           <div className='md:grid md:grid-cols-12 md:gap-6'>
             {/* Content */}
@@ -44,24 +35,13 @@ export default function HairProducts() {
               className='max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6'
               data-aos='fade-right'
             >
-              {/* <div className='md:pr-4 lg:pr-12 xl:pr-16 mb-8'>
-                <h3 className='h3 mb-3'>Dye Intermediates</h3>
-                <p className=' text-gray-400'>
-                  Our comprehensive range of{' '}
-                  <span className='font-bold'>DYE INTERMEDIATES</span> caters to
-                  the diverse needs of the hair color industry, ensuring that
-                  professional stylists and manufacturers have access to
-                  top-quality products for creating stunning and long-lasting
-                  hair color transformations.
-                </p>
-              </div> */}
               {/* Tabs buttons */}
               <div className='mb-8 text-center md:mb-0'>
                 <a
                   className={`flex  items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 1
                       ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      : 'bg-gray-600 border-transparent'
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
@@ -80,7 +60,7 @@ export default function HairProducts() {
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 2
                       ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      : 'bg-gray-600 border-transparent'
                   }`}
                   href='#0'
                   onClick={(e) => {
@@ -100,7 +80,7 @@ export default function HairProducts() {
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 3
                       ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      : 'bg-gray-600 border-transparent'
                   }`}
                   href='#0'
                   onClick={(e) => {
@@ -120,7 +100,7 @@ export default function HairProducts() {
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 4
                       ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      : 'bg-gray-600 border-transparent'
                   }`}
                   href='#0'
                   onClick={(e) => {
@@ -140,7 +120,7 @@ export default function HairProducts() {
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 5
                       ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      : 'bg-gray-600 border-transparent'
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
@@ -159,7 +139,7 @@ export default function HairProducts() {
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 6
                       ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      : 'bg-gray-600 border-transparent'
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
@@ -178,7 +158,7 @@ export default function HairProducts() {
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 7
                       ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      : 'bg-gray-600 border-transparent'
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
@@ -349,7 +329,7 @@ export default function HairProducts() {
                     unmount={false}
                   >
                     <div className='relative inline-flex flex-col'>
-                      <h1 className='h1 '></h1>
+                      <h3 className='h3 '>Bleaching Products</h3>
                       <p className='text-gray-400  mb-3'>
                         <span className='font-bold text-blue-500'>
                           BLEACHING CREAM:
@@ -384,7 +364,7 @@ export default function HairProducts() {
                     unmount={false}
                   >
                     <div className='relative inline-flex flex-col'>
-                      <h1 className='h1 '></h1>
+                      <h3 className='h3'>Stabilizing/ Cheating Agents</h3>
                       <p className='text-gray-400  mb-3'>
                         <span className='font-bold text-blue-500'>
                           KELENES:
@@ -432,7 +412,9 @@ export default function HairProducts() {
                     unmount={false}
                   >
                     <div className='relative inline-flex flex-col'>
-                      <h1 className='h1 '></h1>
+                      <h3 className='h3 mb-3'>
+                        Protein Derivatives/ Conditioners
+                      </h3>
                       <p className='text-gray-400  mb-3'>
                         <span className='font-bold text-blue-500'>
                           LOWENOL HWP:
@@ -487,8 +469,8 @@ export default function HairProducts() {
                     unmount={false}
                   >
                     <div className='relative inline-flex flex-col'>
-                      <h1 className='h1 '></h1>
-                      <h6 className='h6 font-bold'>
+                      <h3 className='h3 mb-3'>Colors</h3>
+                      <h6 className='h6 mb-3 font-bold'>
                         Direct (Non-Oxidation) Colors for Semi-Permanent Hair
                         Color Systems
                       </h6>
@@ -572,7 +554,7 @@ export default function HairProducts() {
                     unmount={false}
                   >
                     <div className='relative inline-flex flex-col'>
-                      <h1 className='h1 '></h1>
+                      <h3 className='h3 '>Shining Colors</h3>
                       <p className='text-gray-400  mb-3'>
                         <span className='font-bold text-blue-500'>
                           BRIGHT SEMI-PERMANENT CREAM HAIR COLORS:
@@ -596,7 +578,7 @@ export default function HairProducts() {
                     unmount={false}
                   >
                     <div className='relative inline-flex flex-col'>
-                      <h1 className='h1 '>Viscosity Builders</h1>
+                      <h3 className='h3 '>Viscosity Builders</h3>
                       <p className='text-gray-400  mb-3'>
                         <span className='font-bold text-blue-500'>
                           CELLOW 940:

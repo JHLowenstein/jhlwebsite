@@ -22,7 +22,6 @@ export default function Home() {
           quantity={100}
         />
         <Hero />
-        <Features />
       </div>
     </>
   )

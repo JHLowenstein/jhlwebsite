@@ -6,7 +6,7 @@ import Logo from '@/public/images/jhlLogo.svg'
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className='mt-40 pt-16 border-t dark:border-gray-800 bg-[#f6f9fc] dark:bg-gray-900'>
       <div className='py-12 md:py-16'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6'>
           {/* Top area: Blocks */}

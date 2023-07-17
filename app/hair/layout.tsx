@@ -7,6 +7,7 @@ import 'aos/dist/aos.css'
 
 import PageIllustration from '@/app/hair/components/page-illustration'
 import Header from '@/app/hair/components/ui/header'
+import Header2 from '@/app/hair/components/ui/header2'
 import Footer from '@/app/hair/components/ui/footer'
 
 export default function HairLayout({
@@ -25,9 +26,9 @@ export default function HairLayout({
 
   return (
     <>
-      <Header />
+      <Header2 />
       <main className='grow'>
-        {/* <PageIllustration /> */}
+        <PageIllustration />
 
         {children}
       </main>
