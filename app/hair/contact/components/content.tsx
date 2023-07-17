@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 
 import World from '@/public/images/jhl12.svg'
-import ContactForm from '@/app/hair/contact/components/contactForm'
 
 interface ContactMethod {
   icon: React.ReactNode
@@ -80,18 +79,25 @@ const contactMethods: ContactMethod[] = [
 
 const ContactSection: React.FC = () => {
   return (
-    <section className='py-14 relative'>
+    <section className=' relative'>
       <div className='max-w-8xl mx-auto px-4 sm:px-6 relative'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6'>
-          <div className='py-5 md:py-20'>
+          <div className='py-5 md:py-10'>
             {/* Section header */}
-            <div className='text-center mx-auto max-w-4xl pb-12 md:pb-16 '>
+            <div className='text-center mx-auto max-w-4xl pb-5 md:pb-5 '>
               {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}
-              <h1 className='h1' data-aos='fade-up' data-aos-delay='200'>
+              <h1
+                className='h1 mb-4 z-10  text-transparent duration-1000  cursor-default  animate-title   bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700  inline-flex flex-col gap-4 transition font-display  font-bold leading-none'
+                data-aos='fade-up'
+                data-aos-delay='200'
+              >
                 Contact Us <br /> Let us know how we can Help!
               </h1>
             </div>
-            <h4 className='h4 text-center mx-auto max-w-4l ' data-aos='fade-up'>
+            <h4
+              className='h4 text-center mx-auto max-w-4l text-gray-400'
+              data-aos='fade-up'
+            >
               We're happy to answer any questions you may have about our color
               formulations, to set up a free consultation with one of our color
               chemists, or to provide you with any additional information you
@@ -113,16 +119,14 @@ const ContactSection: React.FC = () => {
                 </li>
               ))}
             </ul>
-            <Image
-              className='max-w-full mx-auto md:max-w-none h-auto mt-40'
-              src={World}
-              width={540}
-              height={405}
-              alt='Features 01'
-            />
-            <div className='flex justify-center mx-auto'>
-              {/* <ContactForm /> */}
-            </div>
+            <h2
+              className='h2 text-center mx-auto max-w-4l mt-40'
+              data-aos='fade-up'
+            >
+              JHL Presence Around the World
+            </h2>
+
+            <div className='flex justify-center mx-auto'></div>
             <div>
               <div className='mx-auto items-center'></div>
             </div>
@@ -132,16 +136,20 @@ const ContactSection: React.FC = () => {
               <div className='md:grid md:grid-cols-12 md:gap-6 items-center'>
                 {/* Image */}
                 <div
-                  className='max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1 mt=20 '
+                  className='max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1 mt-20 '
                   data-aos='fade-up'
                 >
-                  <div
-                    style={{
-                      display: 'flex',
-                      justifyContent: 'center',
-                      alignItems: 'flex-end',
-                    }} // Add this style to center the image horizontally
-                  ></div>
+                  {' '}
+                  <h4
+                    className='h4  mx-auto max-w-4l mt-10 text-gray-400'
+                    data-aos='fade-up'
+                  >
+                    We have a widespread network of distributors, partners, and
+                    representatives, enabling us to reach customers in different
+                    corners of the world. From North America to Europe, Asia,
+                    and beyond, our reach extends far and wide, allowing us to
+                    cater to the needs of industries and businesses globally.
+                  </h4>
                 </div>
               </div>
             </div>

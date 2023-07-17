@@ -26,7 +26,7 @@ export default function HairLayout({
 
   return (
     <>
-      <Header2 />
+      <Header />
       <main className='grow'>
         <PageIllustration />
 

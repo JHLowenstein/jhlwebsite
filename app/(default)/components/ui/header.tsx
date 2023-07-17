@@ -1,11 +1,30 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { SetStateAction, useEffect, useState } from 'react'
 import MobileMenu from './mobile-menu'
 import Logo from '@/public/images/jhlLogo.svg'
 
 export default function Header() {
+  const [sticky, setSticky] = useState(false)
+  const handleStickyNavbar = () => {
+    if (window.scrollY >= 80) {
+      setSticky(true)
+    } else {
+      setSticky(false)
+    }
+  }
+  useEffect(() => {
+    window.addEventListener('scroll', handleStickyNavbar)
+  })
   return (
-    <header className='absolute w-full z-30'>
+    // <header className='absolute w-full z-30'>
+    <header
+      className={`header  z-40  w-full items-center bg-transparent ${
+        sticky
+          ? '!fixed !z-[9999] !bg-black !bg-opacity-90 shadow-sticky backdrop-blur-sm !transition dark:!bg-primary dark:!bg-opacity-20'
+          : 'absolute'
+      }`}
+    >
       <div className='max-w-6xl mx-auto px-4 sm:px-6'>
         <div className='flex items-center justify-between h-20'>
           {/* Site branding */}

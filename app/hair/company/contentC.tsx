@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
-import TestimonialImage01 from '@/public/images/testimonial-01.jpg'
+import David from '@/public/images/davidL.png'
+import Steve from '@/public/images/steve.png'
 
 export default function Testimonials() {
   return (
@@ -22,7 +23,7 @@ export default function Testimonials() {
               <div>
                 <div className='  mb-4'>
                   <Image
-                    src={TestimonialImage01}
+                    src={David}
                     width={300}
                     height={200}
                     alt='Testimonial 01'
@@ -47,7 +48,7 @@ export default function Testimonials() {
               <div>
                 <div className='  mb-4'>
                   <Image
-                    src={TestimonialImage01}
+                    src={Steve}
                     width={300}
                     height={200}
                     alt='Testimonial 01'
