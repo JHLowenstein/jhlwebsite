@@ -8,11 +8,11 @@ export default function Countries() {
       <div className='max-w-6xl mx-auto px-4 sm:px-6'>
         <div className='py-12 md:py-10 border-t border-gray-800'>
           {/* Section header */}
-          {/* <div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
+          <div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
             <h2 className='h2' data-aos='fade-up'>
-              From the big picture to every tiny detail, we got you covered.
+              JHL's list of Global Clients
             </h2>
-          </div> */}
+          </div>
 
           {/* Items */}
           <div className='grid gap-20' data-aos-id-target>
@@ -32,7 +32,9 @@ export default function Countries() {
                     data-aos-delay='200'
                     data-aos-anchor='[data-aos-id-target]'
                   >
-                    <h4 className='h4 mb-2 text-left'>North America</h4>
+                    <h4 className='h4 mb-2 text-left text-rose-500'>
+                      North America
+                    </h4>
                     <p className='text-lg text-gray-400 text-left'>
                       United States <br /> Mexico <br /> Puerto Rico
                     </p>
@@ -43,7 +45,9 @@ export default function Countries() {
                     data-aos-delay='400'
                     data-aos-anchor='[data-aos-id-target]'
                   >
-                    <h4 className='h4 mb-2 text-left'>South America</h4>
+                    <h4 className='h4 mb-2 text-left text-sky-500'>
+                      South America
+                    </h4>
                     <p className='text-lg text-gray-400 text-left'>
                       Argentina <br /> Brazil <br /> Colombia <br /> Ecuador{' '}
                       <br /> Venuzuela
@@ -55,8 +59,6 @@ export default function Countries() {
                     data-aos-delay='600'
                     data-aos-anchor='[data-aos-id-target]'
                   >
-                    <h4 className='h4 mb-2'>ASIA/MIDDLE EAST</h4>
-
                     <div className='grid grid-cols-2 gap-4'>
                       {/* Use dangerouslySetInnerHTML to render HTML content */}
 
