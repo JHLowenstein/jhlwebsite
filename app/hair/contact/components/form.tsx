@@ -19,11 +19,7 @@ export default function Contact() {
                     type='text'
                     className='form-input w-full text-gray-300 border-red-500 focus:border-red-500'
                     placeholder='Enter your first name'
-                    required
                   />
-                  <p className='text-red-500 text-sm mt-2'>
-                    This field is required
-                  </p>
                 </div>
                 <div className='w-full md:w-1/2 px-3'>
                   <label
@@ -37,7 +33,6 @@ export default function Contact() {
                     type='text'
                     className='form-input w-full text-gray-300'
                     placeholder='Enter your last name'
-                    required
                   />
                 </div>
               </div>
@@ -88,8 +83,44 @@ export default function Contact() {
                     className='form-select w-full text-gray-300'
                   >
                     <option>United States</option>
-                    <option>United Kingdom</option>
+                    <option>Argentina</option>
+                    <option>Belarus</option>
+                    <option>Brazil</option>
+                    <option>Bulgaria</option>
+                    <option>China</option>
+                    <option>Colombia</option>
+                    <option>Ecuador</option>
+                    <option>Egypt</option>
+                    <option>France</option>
                     <option>Germany</option>
+                    <option>Greece</option>
+                    <option>Hong Kong</option>
+                    <option>India</option>
+                    <option>Indonesia</option>
+                    <option>Israel</option>
+                    <option>Italy</option>
+                    <option>Japan</option>
+                    <option>Korea</option>
+                    <option>Lebanon</option>
+                    <option>Malaysia</option>
+                    <option>Mexico</option>
+                    <option>Netherlands</option>
+                    <option>Pakistan</option>
+                    <option>Philippines</option>
+                    <option>Poland</option>
+                    <option>Puerto Rico</option>
+                    <option>Romania</option>
+                    <option>Russia</option>
+                    <option>Singapore</option>
+                    <option>South Africa</option>
+                    <option>Spain</option>
+                    <option>Sri Lanka</option>
+                    <option>Switzerland</option>
+                    <option>Taiwan</option>
+                    <option>Thailand</option>
+                    <option>Turkey</option>
+                    <option>United Kingdom</option>
+                    <option>Vietnam</option>
                   </select>
                 </div>
               </div>

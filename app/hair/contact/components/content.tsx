@@ -86,7 +86,7 @@ const ContactSection: React.FC = () => {
             {/* Section header */}
 
             <ul
-              className='mt-12 flex flex-wrap gap-x-12 gap-y-6 items-center lg:gap-x-24 mb-40'
+              className='mt-12 md:ml-5 flex flex-wrap gap-x-12 gap-y-6 items-center lg:gap-x-24 mb-40'
               data-aos='fade-up'
             >
               {contactMethods.map((item, idx) => (
@@ -95,7 +95,7 @@ const ContactSection: React.FC = () => {
                     {item.title}
                   </h4>
                   <div className='mt-3 flex items-center gap-x-3'>
-                    <div className='flex-none text-gray-400 text-xl font-bold'>
+                    <div className='flex-none text-center text-gray-400 text-xl font-bold'>
                       {item.icon}
                     </div>
                     {item.title === 'Phone' ? (

@@ -21,15 +21,15 @@ export default function Hero() {
                   Let us know how we can Help!{' '}
                 </span>
               </h1>
-              <h4
-                className='h4 text-center mx-auto max-w-4l text-gray-400 mb-10'
+              <p
+                className='text-xl font-bold text-center mx-auto max-w-4l text-gray-400 mb-10'
                 data-aos='fade-up'
               >
                 We're happy to answer any questions you may have about our color
                 formulations, to set up a free consultation with one of our
                 color chemists, or to provide you with any additional
                 information you may need.
-              </h4>
+              </p>
             </div>
           </div>
         </div>
