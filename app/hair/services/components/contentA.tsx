@@ -1,6 +1,8 @@
 import Image from 'next/image'
 
-import BKBridge from '@/public/images/jhl11.svg'
+import Service from '@/public/images/ladyHex.png'
+import Chemist from '@/public/images/gtt.png'
+import Support from '@/public/images/hexs.png'
 
 export default function Content() {
   return (
@@ -29,10 +31,10 @@ export default function Content() {
                 >
                   <Image
                     className='max-w-full mx-auto md:max-w-none h-auto'
-                    src={BKBridge}
-                    width={540}
-                    height={405}
-                    alt='Features 01'
+                    src={Service}
+                    width={340}
+                    height={205}
+                    alt='Services 01'
                   />
                 </div>
                 {/* Content */}
@@ -72,10 +74,10 @@ export default function Content() {
                 >
                   <Image
                     className='max-w-full mx-auto md:max-w-none h-auto'
-                    src={BKBridge}
-                    width={540}
-                    height={405}
-                    alt='Features 02'
+                    src={Chemist}
+                    width={140}
+                    height={55}
+                    alt='Service 02'
                   />
                 </div>
                 {/* Content */}
@@ -87,7 +89,7 @@ export default function Content() {
                     <h4 className='h4 mb-3 text-gray-300'>
                       Leading Edge Color Technology
                     </h4>
-                    <p className='text-gray-400 mb-4'>
+                    <p className='text-gray-400 mb-4 text-lg'>
                       <span className='font-bold'>
                         OUR EXPERT CHEMISTS AND TECHNICAL STAFF
                       </span>
@@ -116,9 +118,9 @@ export default function Content() {
                 >
                   <Image
                     className='max-w-full mx-auto md:max-w-none h-auto'
-                    src={BKBridge}
-                    width={540}
-                    height={405}
+                    src={Support}
+                    width={340}
+                    height={205}
                     alt='Features 03'
                   />
                 </div>
@@ -131,7 +133,7 @@ export default function Content() {
                     <h4 className='h4 mb-3'>
                       Specialized Services For Hair Formulators
                     </h4>
-                    <p className='text-gray-400 mb-4'>
+                    <p className='text-gray-400 mb-4 text-lg'>
                       <span className='font-bold'>
                         IN ADDITION TO THE COMPREHENSIVE SERVICE AND SUPPORT{' '}
                       </span>

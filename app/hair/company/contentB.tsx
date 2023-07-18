@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 import BKBridge from '@/public/images/jhl11.svg'
+import Models from '@/public/images/models.png'
 
 export default function Content() {
   return (
@@ -12,8 +13,10 @@ export default function Content() {
             <div className='max-w-4xl mx-auto  pb-12 md:pb-16 text-center'>
               {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}
               <h2 className='h2' data-aos='fade-up' data-aos-delay='200'>
-                State-of-The Art Facilities Around the World Complement Our
-                Innovative Color
+                State-of-The Art Facilities Around the World Complement Our{' '}
+                <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
+                  Innovative Color
+                </span>
               </h2>
             </div>
 
@@ -66,9 +69,9 @@ export default function Content() {
                 >
                   <Image
                     className='max-w-full mx-auto md:max-w-none h-auto'
-                    src={BKBridge}
-                    width={540}
-                    height={405}
+                    src={Models}
+                    width={240}
+                    height={105}
                     alt='Features 02'
                   />
                 </div>

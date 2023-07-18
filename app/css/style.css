@@ -11,12 +11,21 @@
 
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
 @layer utilities {
-    .rtl {
-        direction: rtl;
-    }
+  .rtl {
+    direction: rtl;
+  }
 }
 
 /* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
-[x-cloak=""] {
-    display: none;
+[x-cloak=''] {
+  display: none;
+}
+
+.hexagon {
+  width: 340px; /* Half of the width of the image */
+  height: 307.5px; /* (Width / 2) * √3 (approx. 0.866) to get the height of the hexagon */
+  background-color: #000; /* Choose the color for the corners of the hexagon */
+
+  /* Use clip-path to create the hexagon shape */
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }

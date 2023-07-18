@@ -7,17 +7,25 @@ export const metadata = {
 
 import Hero from '@/app/hair/company/hero'
 import Particles from '@/app/hair/components/particles'
+import ContentA from '@/app/hair/company/contentA'
+import ContentB from '@/app/hair/company/contentB'
+import ContentC from '@/app/hair/company/contentC'
+import Team from '@/app/hair/company/imageMosaic'
 
 export default function HairCompany() {
   return (
     <section>
+      <Hero />
+      <Team />
       <div className='flex flex-col items-center justify-center overflow-hidden '>
         <div className='hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0' />
         <Particles
           className='absolute inset-0 -z-10 animate-fade-in'
           quantity={200}
         />
-        <Hero />
+        <ContentA />
+        <ContentB />
+        <ContentC />
       </div>
     </section>
   )
