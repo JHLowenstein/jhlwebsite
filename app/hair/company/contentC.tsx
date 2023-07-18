@@ -3,7 +3,7 @@ import Image from 'next/image'
 import David from '@/public/images/davidL.png'
 import Steve from '@/public/images/steve.png'
 
-export default function Testimonials() {
+export default function ContentC() {
   return (
     <section>
       <div className='max-w-6xl mx-auto px-4 sm:px-6'>

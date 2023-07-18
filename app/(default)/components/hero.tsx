@@ -46,8 +46,8 @@ export default function Hero() {
         </div> */}
 
         {/* Hero content */}
-        <div className='relative pt-100 pb-10 mt7 md:pt-40 md:pb-16'>
-          <div className='max-w-3xl mx-auto text-center pb-12 md:pb-16'>
+        <div className='relative pt-100  mt7 md:pt-40'>
+          <div className='max-w-3xl mx-auto text-center '>
             <h1
               className='h1 mb-4 z-10 text-[10rem] text-transparent duration-1000  cursor-default  animate-title  whitespace-nowrap bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700  inline-flex flex-col gap-4 transition font-display  font-bold leading-none'
               data-aos='fade-up'
@@ -69,27 +69,6 @@ export default function Hero() {
             >
               PERFECTING THE ART OF COLOR FORMULATIONS
             </h5>
-
-            <div className='container mx-auto  mt-8 grid gap-1 md:mt-16 md:grid-cols-3 md:flex-row'>
-              <CardSection
-                title='HAIR'
-                link='/hair'
-                imgSrc={HairModel}
-                imgAlt='Hair Model'
-              />
-              <CardSection
-                title='FUR'
-                link='/'
-                imgSrc={FurModel}
-                imgAlt='Fur Model'
-              />
-              <CardSection
-                title='LEATHER'
-                link='/'
-                imgSrc={LeatherModel}
-                imgAlt='Leather Model'
-              />
-            </div>
           </div>
         </div>
       </div>

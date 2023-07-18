@@ -10,7 +10,11 @@ export const metadata = {
 import Hero from '@/app/(default)/components/hero'
 import React from 'react'
 import Particles from '@/app/(default)/components/particles'
-import Features from '@/app/(default)/components/features'
+import HairModel from '@/public/images/jhl6.svg'
+import FurModel from '@/public/images/jhl4.svg'
+import LeatherModel from '@/public/images/jhl3.svg'
+import CardSection from './card'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -22,6 +26,29 @@ export default function Home() {
           quantity={100}
         />
         <Hero />
+        <div className='container mx-auto mb-40  mt-8 grid gap-1  md:grid-cols-3 md:flex-row'>
+          <CardSection
+            title='HAIR'
+            link='/hair'
+            imgSrc={HairModel}
+            imgAlt='Hair Model'
+            color='bg-rose-500 hover:bg-rose-600'
+          />
+          <CardSection
+            title='FUR'
+            link='/'
+            imgSrc={FurModel}
+            imgAlt='Fur Model'
+            color='bg-emerald-500 hover:bg-emerald-600'
+          />
+          <CardSection
+            title='LEATHER'
+            link='/'
+            imgSrc={LeatherModel}
+            imgAlt='Leather Model'
+            color='bg-violet-500 hover:bg-violet-600'
+          />
+        </div>
       </div>
     </>
   )
