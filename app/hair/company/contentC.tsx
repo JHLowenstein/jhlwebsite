@@ -10,7 +10,12 @@ export default function Testimonials() {
         <div className='py-12 md:py-20 border-t border-gray-800'>
           {/* Section header */}
           <div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
-            <h2 className='h2 mb-4'>A Legacy of Leadership</h2>
+            <h1 className='h1 mb-4'>
+              A Legacy of{' '}
+              <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
+                Leadership
+              </span>{' '}
+            </h1>
           </div>
 
           {/*  */}
@@ -33,7 +38,7 @@ export default function Testimonials() {
               </div>
 
               <div className='text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700'>
-                <cite className='text-gray-200 not-italic'>
+                <cite className='text-gray-200 not-italic text-xl'>
                   <span className='font-bold'>David Lowenstein</span>, President
                 </cite>{' '}
                 -{' '}
@@ -58,8 +63,8 @@ export default function Testimonials() {
               </div>
 
               <div className='text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700'>
-                <cite className='text-gray-200 not-italic'>
-                  <span className='font-bold'>Steve Lowenstein</span>, Chairman
+                <cite className='text-gray-200 not-italic text-xl'>
+                  <span className='font-bold '>Steve Lowenstein</span>, Chairman
                 </cite>{' '}
                 -{' '}
               </div>

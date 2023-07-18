@@ -11,7 +11,10 @@ export default function Content() {
             {/* Section header */}
             <div className='text-center mx-auto max-w-4xl pb-12 md:pb-16 '>
               <h1 className='h1' data-aos='fade-up' data-aos-delay='200'>
-                Hair Services
+                Discover JHL{' '}
+                <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
+                  Hair Services
+                </span>
               </h1>
             </div>
 

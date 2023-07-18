@@ -79,52 +79,66 @@ const contactMethods: ContactMethod[] = [
 
 const ContactSection: React.FC = () => {
   return (
-    <section className=' relative'>
+    <section className='relative'>
       <div className='max-w-8xl mx-auto px-4 sm:px-6 relative'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6'>
           <div className='py-5 md:py-10'>
             {/* Section header */}
-            <div className='text-center mx-auto max-w-4xl pb-5 md:pb-5 '>
-              {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}
-              <h1
-                className='h1 mb-4 z-10  text-transparent duration-1000  cursor-default  animate-title   bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700  inline-flex flex-col gap-4 transition font-display  font-bold leading-none'
-                data-aos='fade-up'
-                data-aos-delay='200'
-              >
-                Contact Us <br /> Let us know how we can Help!
-              </h1>
-            </div>
-            <h4
-              className='h4 text-center mx-auto max-w-4l text-gray-400'
-              data-aos='fade-up'
-            >
-              We're happy to answer any questions you may have about our color
-              formulations, to set up a free consultation with one of our color
-              chemists, or to provide you with any additional information you
-              may need.
-            </h4>
+
             <ul
-              className='mt-12 flex flex-wrap gap-x-12 gap-y-6 items-center lg:gap-x-24'
+              className='mt-12 flex flex-wrap gap-x-12 gap-y-6 items-center lg:gap-x-24 mb-40'
               data-aos='fade-up'
             >
               {contactMethods.map((item, idx) => (
                 <li key={idx}>
-                  <h4 className='text-gray-400 text-lg font-medium'>
+                  <h4 className='text-gray-400 text-center text-lg font-bold'>
                     {item.title}
                   </h4>
                   <div className='mt-3 flex items-center gap-x-3'>
-                    <div className='flex-none text-gray-400'>{item.icon}</div>
-                    <p>{item.contact}</p>
+                    <div className='flex-none text-gray-400 text-xl font-bold'>
+                      {item.icon}
+                    </div>
+                    {item.title === 'Phone' ? (
+                      <a href={`tel:${item.contact}`}>{item.contact}</a>
+                    ) : (
+                      <a href={`mailto:${item.contact}`} target='blank'>
+                        {item.contact}
+                      </a>
+                    )}
                   </div>
                 </li>
               ))}
             </ul>
             <h2
-              className='h2 text-center mx-auto max-w-4l mt-40'
+              className='h2 text-center mx-auto max-w-4l mt-10 mb-10'
               data-aos='fade-up'
             >
-              JHL Presence Around the World
+              JHL Presence{' '}
+              <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
+                Around the World{' '}
+              </span>
             </h2>
+            <Image
+              className='max-w-full mx-auto md:max-w-none h-auto'
+              src={World}
+              width={540}
+              height={405}
+              style={{ margin: 'auto' }}
+              data-aos='fade-up'
+              data-aos-delay='200'
+              alt='World Map'
+            />
+
+            <p
+              className='text-xl text-center font-bold  max-w-4l  text-gray-400 my-10'
+              data-aos='fade-up'
+            >
+              We have a widespread network of distributors, partners, and
+              representatives, enabling us to reach customers in different
+              corners of the world. From North America to Europe, Asia, and
+              beyond, our reach extends far and wide, allowing us to cater to
+              the needs of industries and businesses globally.
+            </p>
 
             <div className='flex justify-center mx-auto'></div>
             <div>
@@ -136,20 +150,14 @@ const ContactSection: React.FC = () => {
               <div className='md:grid md:grid-cols-12 md:gap-6 items-center'>
                 {/* Image */}
                 <div
+                  className='max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1'
+                  data-aos='fade-up'
+                ></div>
+                <div
                   className='max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1 mt-20 '
                   data-aos='fade-up'
                 >
                   {' '}
-                  <h4
-                    className='h4  mx-auto max-w-4l mt-10 text-gray-400'
-                    data-aos='fade-up'
-                  >
-                    We have a widespread network of distributors, partners, and
-                    representatives, enabling us to reach customers in different
-                    corners of the world. From North America to Europe, Asia,
-                    and beyond, our reach extends far and wide, allowing us to
-                    cater to the needs of industries and businesses globally.
-                  </h4>
                 </div>
               </div>
             </div>

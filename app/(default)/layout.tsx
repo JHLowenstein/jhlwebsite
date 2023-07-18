@@ -27,7 +27,7 @@ export default function DefaultLayout({
     <>
       <Header />
       <main className='grow'>
-        <PageIllustration />
+        {/* <PageIllustration /> */}
 
         {children}
       </main>

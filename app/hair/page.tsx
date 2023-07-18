@@ -8,6 +8,7 @@ export const metadata = {
 }
 
 import Hero from '@/app/hair/components/hero'
+import Content from '@/app/hair/components/content'
 import React from 'react'
 import Particles from '@/app/hair/components/particles'
 
@@ -21,6 +22,7 @@ export default function Hair() {
           quantity={110}
         />
         <Hero />
+        <Content />
       </div>
     </section>
   )

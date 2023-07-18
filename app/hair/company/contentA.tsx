@@ -12,7 +12,10 @@ export default function Content() {
             <div className='text-center mx-auto max-w-4xl pb-12 md:pb-16 '>
               {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}
               <h1 className='h1' data-aos='fade-up' data-aos-delay='200'>
-                We have Provided a Tradition of Excellence for Over 100 Years
+                We have Provided a Tradition of Excellence for Over{' '}
+                <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
+                  100 Years
+                </span>
               </h1>
             </div>
 
@@ -42,7 +45,7 @@ export default function Content() {
                     <h3 className='h3 mb-3 cursor-default text-gray-300'>
                       Our Story
                     </h3>
-                    <p className='text-gray-400 mb-4 text-bold'>
+                    <p className='text-gray-400 mb-4  text-xl font-bold'>
                       Since 1897, Jos. H. Lowenstein & Sons, Inc. has been
                       providing the world of fashion with brilliant,
                       trend-setting colors for the fur, hair and leather
@@ -78,7 +81,7 @@ export default function Content() {
                 >
                   <div className='md:pl-4 lg:pl-12 xl:pl-16'>
                     <h3 className='h3 mb-3 text-gray-300'>Valued Clients</h3>
-                    <p className='text-gray-400 mb-4'>
+                    <p className='text-gray-400 mb-4  text-xl font-bold'>
                       We are proud to serve a wide range of clients, from
                       multinational, world-renowned corporations to small,
                       privately held companies. Our diverse customer base is a
@@ -113,7 +116,7 @@ export default function Content() {
                 >
                   <div className='md:pr-4 lg:pr-12 xl:pr-16'>
                     <h3 className='h3 mb-3'>Customized Products</h3>
-                    <p className='text-gray-400 mb-4'>
+                    <p className='text-gray-400 mb-4  text-xl font-bold'>
                       At JHL, we understand that each customer has unique dyeing
                       needs. That's why our team of experienced chemists in all
                       our laboratories is readily available to assist you

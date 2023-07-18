@@ -47,35 +47,35 @@ export default function Header() {
               <li>
                 <Link
                   href='/hair'
-                  className='font-medium text-zinc-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  className='font-medium text-zinc-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  Hair
+                  <span className='font-bold text-xl'>Hair</span>
                 </Link>
               </li>
               <li>
                 <Link
                   href='/fur'
-                  className='font-medium text-zinc-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  className='font-medium text-zinc-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  Fur
+                  <span className='font-bold text-xl'>Fur</span>
                 </Link>
               </li>
               <li>
                 <Link
                   href='/'
-                  className='font-medium text-zinc-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  className='font-medium text-zinc-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  Leather
+                  <span className='font-bold text-xl'>Leather</span>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href='/'
-                  className='font-medium text-zinc-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  className='font-medium text-zinc-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  Contact
+                  <span className='font-bold'>Contact</span>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 {/* <Link
                   href='/signup'

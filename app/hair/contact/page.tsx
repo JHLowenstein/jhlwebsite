@@ -9,6 +9,9 @@ export const metadata = {
 import React from 'react'
 
 import Hero from '@/app/hair/contact/components/hero'
+import ContactSection from '@/app/hair/contact/components/content'
+import Countries from '@/app/hair/contact/components/countires'
+
 import Particles from '@/app/hair/components/particles'
 
 export default function HairContact() {
@@ -21,6 +24,8 @@ export default function HairContact() {
           quantity={100}
         />
         <Hero />
+        <ContactSection />
+        <Countries />
       </div>
     </>
   )

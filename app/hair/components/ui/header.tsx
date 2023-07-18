@@ -48,43 +48,36 @@ export default function Header() {
               <li>
                 <Link
                   href='/hair/company'
-                  className='font-medium text-zinc-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  className='font-medium text-zinc-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  Company
+                  <span className='font-bold'>Company</span>
                 </Link>
               </li>
               <li>
                 <Link
                   href='/hair/products'
-                  className='font-medium text-zinc-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  className='font-medium text-zinc-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  Products
+                  <span className='font-bold'>Products</span>
                 </Link>
               </li>
               <li>
                 <Link
                   href='/hair/services'
-                  className='font-medium text-zinc-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  className='font-medium font-bold text-zinc-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  Services
+                  <span className='font-bold'>Services</span>
                 </Link>
               </li>
               <li>
                 <Link
                   href='/hair/contact'
-                  className='font-medium text-zinc-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  className='font-medium text-zinc-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  Contact
+                  <span className='font-bold'>Contact</span>
                 </Link>
               </li>
-              <li>
-                {/* <Link
-                  href='/signup'
-                  className='btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3'
-                >
-                  Sign up
-                </Link> */}
-              </li>
+              <li></li>
             </ul>
           </nav>
 

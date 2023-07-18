@@ -11,6 +11,7 @@ import React from 'react'
 import Hero from '@/app/hair/products/components/hero'
 import HairProducts from '@/app/hair/products/components/hairProducts'
 import Particles from '@/app/hair/components/particles'
+import Products from '@/app/hair/products/components/product'
 
 export default function HairProductsf() {
   return (
@@ -22,7 +23,8 @@ export default function HairProductsf() {
           quantity={100}
         />
         <Hero />
-        <HairProducts />
+        {/* <HairProducts /> */}
+        <Products />
       </div>
     </>
   )

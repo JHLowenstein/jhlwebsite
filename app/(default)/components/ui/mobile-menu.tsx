@@ -72,19 +72,37 @@ export default function MobileMenu() {
           <li>
             <Link
               href='/hair'
-              className='flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center'
+              className='flex text-gray-300 font-bold hover:text-gray-200 py-2'
               onClick={() => setMobileNavOpen(false)}
             >
-              Hair
+              <span className='font-bold'>Hair</span>
             </Link>
           </li>
           <li>
             <Link
-              href='/signup'
-              className='font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out'
+              href='/fur'
+              className='flex text-gray-300 font-bold hover:text-gray-200 py-2'
               onClick={() => setMobileNavOpen(false)}
             >
-              Fur
+              <span className='font-bold'>Fur</span>
+            </Link>
+          </li>
+          <li>
+            <Link
+              href='/leather'
+              className='flex text-gray-300 font-bold hover:text-gray-200 py-2'
+              onClick={() => setMobileNavOpen(false)}
+            >
+              <span className='font-bold'>Leather</span>
+            </Link>
+          </li>
+          <li>
+            <Link
+              href='/contact'
+              className='flex font-bold text-gray-300 hover:text-gray-200 py-2'
+              onClick={() => setMobileNavOpen(false)}
+            >
+              <span className='font-bold'>Contact</span>
             </Link>
           </li>
         </ul>

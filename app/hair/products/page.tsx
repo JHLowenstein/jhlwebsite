@@ -10,6 +10,7 @@ import React from 'react'
 
 import Hero from '@/app/hair/products/components/hero'
 import HairProducts from '@/app/hair/products/components/hairProducts'
+
 import Particles from '@/app/hair/components/particles'
 
 export default function HairProductsf() {

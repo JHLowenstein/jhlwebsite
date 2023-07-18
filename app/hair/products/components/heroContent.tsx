@@ -12,9 +12,16 @@ export default function HeroContent() {
             <div className='text-center mx-auto max-w-4xl pb-12 md:pb-16 '>
               {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}
               <h1 className='h1 mb-5' data-aos='fade-up' data-aos-delay='200'>
-                Explore the Hair Products
+                Explore the{' '}
+                <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
+                  Hair Products
+                </span>
               </h1>
-              <h4 className='h4 text-gray-500 font-semibold'>
+              <h4
+                className='h4 text-gray-400 font-semibold'
+                data-aos='fade-up'
+                data-aos-delay='200'
+              >
                 Our team at JHL is devoted to delivering the highest quality of
                 products to ensure our clients' satisfaction is always met
               </h4>

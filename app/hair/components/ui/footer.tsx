@@ -6,7 +6,7 @@ import Logo from '@/public/images/jhlLogo.svg'
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className=' border-t-2 dark:border-gray-800 bg-[#f6f9fc] dark:bg-gray-900'>
       <div className='py-12 md:py-16'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6'>
           {/* Top area: Blocks */}
@@ -37,7 +37,7 @@ export default function Footer() {
             {/* 2nd, 3rd and 4th blocks */}
             <div className='md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8'>
               {/* 2nd block */}
-              <div className='text-sm'>
+              {/* <div className='text-sm'>
                 <h6 className='text-gray-200 font-medium mb-1'>Hair</h6>
                 <ul>
                   <li className='mb-1'>
@@ -73,10 +73,10 @@ export default function Footer() {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
 
               {/* 3rd block */}
-              <div className='text-sm'>
+              {/* <div className='text-sm'>
                 <h6 className='text-gray-200 font-medium mb-1'>Fur</h6>
                 <ul>
                   <li className='mb-1'>
@@ -112,10 +112,10 @@ export default function Footer() {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
 
               {/* 4th block */}
-              <div className='text-sm'>
+              {/* <div className='text-sm'>
                 <h6 className='text-gray-200 font-medium mb-1'>Leather</h6>
                 <ul>
                   <li className='mb-1'>
@@ -151,7 +151,7 @@ export default function Footer() {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -162,7 +162,7 @@ export default function Footer() {
               <li>
                 <Link
                   href='/'
-                  className='flex justify-center items-center text-blue-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
+                  className='flex justify-center items-center text-blue-400 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
                   aria-label='Twitter'
                 >
                   <svg
@@ -177,7 +177,7 @@ export default function Footer() {
               <li className='ml-4'>
                 <Link
                   href='/'
-                  className='flex justify-center items-center text-blue-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
+                  className='flex justify-center items-center text-blue-400 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
                   aria-label='Github'
                 >
                   <svg
@@ -192,7 +192,7 @@ export default function Footer() {
               <li className='ml-4'>
                 <Link
                   href='/'
-                  className='flex justify-center items-center text-blue-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
+                  className='flex justify-center items-center text-blue-400 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
                   aria-label='Facebook'
                 >
                   <svg
@@ -207,7 +207,7 @@ export default function Footer() {
               <li className='ml-4'>
                 <Link
                   href='/'
-                  className='flex justify-center items-center text-blue-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
+                  className='flex justify-center items-center text-blue-400 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
                   aria-label='Instagram'
                 >
                   <svg
@@ -224,7 +224,7 @@ export default function Footer() {
               <li className='ml-4'>
                 <Link
                   href='/'
-                  className='flex justify-center items-center text-blue-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
+                  className='flex justify-center items-center text-blue-400 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out'
                   aria-label='Linkedin'
                 >
                   <svg
