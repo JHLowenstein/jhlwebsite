@@ -18,7 +18,7 @@ export default function HairProducts() {
   }, [])
 
   return (
-    <section className='relative'>
+    <section className='relative mb-20'>
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
         className='absolute inset-0  pointer-events-none mb-16'
@@ -40,8 +40,8 @@ export default function HairProducts() {
                 <a
                   className={`flex  items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 1
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg rounded'
-                      : 'bg-gray-600 border-transparent'
+                      ? ' shadow-md border-transparent hover:shadow-lg rounded'
+                      : 'bg-rose-500 border-transparent'
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
@@ -59,8 +59,8 @@ export default function HairProducts() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 2
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-gray-600 border-transparent'
+                      ? 'shadow-md border-transparent hover:shadow-lg'
+                      : 'bg-rose-500 border-transparent'
                   }`}
                   href='#0'
                   onClick={(e) => {
@@ -79,8 +79,8 @@ export default function HairProducts() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 3
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-gray-600 border-transparent'
+                      ? ' shadow-md border-transparent hover:shadow-lg rounded'
+                      : 'bg-rose-500 border-transparent'
                   }`}
                   href='#0'
                   onClick={(e) => {
@@ -99,8 +99,8 @@ export default function HairProducts() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 4
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-gray-600 border-transparent'
+                      ? ' shadow-md border-transparent hover:shadow-lg rounded'
+                      : 'bg-rose-500 border-transparent'
                   }`}
                   href='#0'
                   onClick={(e) => {
@@ -119,8 +119,8 @@ export default function HairProducts() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 5
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-gray-600 border-transparent'
+                      ? ' shadow-md border-transparent hover:shadow-lg rounded'
+                      : 'bg-rose-500 border-transparent'
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
@@ -138,8 +138,8 @@ export default function HairProducts() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 6
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-gray-600 border-transparent'
+                      ? ' shadow-md border-transparent hover:shadow-lg rounded'
+                      : 'bg-rose-500 border-transparent'
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
@@ -157,8 +157,8 @@ export default function HairProducts() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 7
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-gray-600 border-transparent'
+                      ? ' shadow-md border-transparent hover:shadow-lg rounded'
+                      : 'bg-rose-500 border-transparent'
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
@@ -197,9 +197,9 @@ export default function HairProducts() {
                     unmount={false}
                   >
                     <div className='relative inline-flex flex-col'>
-                      <h1 className='h1 '></h1>
-                      <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                      <h3 className='h3 '>Lowenol Surfactants</h3>
+                      <p className='text-gray-300  my-3'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL C-9685:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -208,7 +208,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL S-216X:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -217,7 +217,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL 1985A, LOWENOL 1985B, LOWENOL T-163, LOWENOL
                           T-163A:
                         </span>{' '}
@@ -227,7 +227,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL 6559:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -237,7 +237,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL COPOLYMER 725:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -246,7 +246,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL COPOLYMER 1097:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -255,7 +255,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL EMULSION 80:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -264,7 +264,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL T-163:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -273,7 +273,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL SOLVENT 4996:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -282,7 +282,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL EMULSION LAO:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -291,7 +291,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL EMULSION LAO-NT:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -300,7 +300,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL EMULSION PEARLESCENT:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -309,7 +309,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'></span>{' '}
+                        <span className='font-bold text-rose-500'></span>{' '}
                         <span className='font-semibold '></span>
                       </p>
                     </div>
@@ -331,7 +331,7 @@ export default function HairProducts() {
                     <div className='relative inline-flex flex-col'>
                       <h3 className='h3 '>Bleaching Products</h3>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           BLEACHING CREAM:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -340,7 +340,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           BLEACHING COLORS:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -366,7 +366,7 @@ export default function HairProducts() {
                     <div className='relative inline-flex flex-col'>
                       <h3 className='h3'>Stabilizing/ Cheating Agents</h3>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           KELENES:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -376,7 +376,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL STABILIZER L-536:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -386,7 +386,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL STABILIZER D-552:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -416,7 +416,7 @@ export default function HairProducts() {
                         Protein Derivatives/ Conditioners
                       </h3>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL HWP:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -425,7 +425,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL CONDITIONER PWW:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -433,7 +433,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL COPOLYMER 725:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -443,7 +443,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL COPOLYMER 1097:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -475,7 +475,7 @@ export default function HairProducts() {
                         Color Systems
                       </h6>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWALANS:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -484,7 +484,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWACRYLS:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -493,7 +493,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWADENES:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -502,7 +502,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWASOLS:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -511,7 +511,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           FD&C, EXT. D&C, D&C:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -520,7 +520,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           HC COLORS:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -532,7 +532,7 @@ export default function HairProducts() {
                         Oxidation Hair Colors
                       </h6>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>RODOLS:</span>{' '}
+                        <span className='font-bold text-rose-500'>RODOLS:</span>{' '}
                         <span className='font-semibold '>
                           Intermediates for use in oxidation color systems.
                         </span>
@@ -556,7 +556,7 @@ export default function HairProducts() {
                     <div className='relative inline-flex flex-col'>
                       <h3 className='h3 '>Shining Colors</h3>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           BRIGHT SEMI-PERMANENT CREAM HAIR COLORS:
                         </span>{' '}
                         <span className='font-semibold '></span>
@@ -580,7 +580,7 @@ export default function HairProducts() {
                     <div className='relative inline-flex flex-col'>
                       <h3 className='h3 '>Viscosity Builders</h3>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           CELLOW 940:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -589,7 +589,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL COPOLYMER 725:
                         </span>{' '}
                         <span className='font-semibold '>
@@ -599,7 +599,7 @@ export default function HairProducts() {
                         </span>
                       </p>
                       <p className='text-gray-300  mb-3'>
-                        <span className='font-bold text-blue-500'>
+                        <span className='font-bold text-rose-500'>
                           LOWENOL COPOLYMER 1097:
                         </span>{' '}
                         <span className='font-semibold '>

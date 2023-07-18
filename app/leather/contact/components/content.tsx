@@ -82,7 +82,7 @@ const ContactSection: React.FC = () => {
     <section className='relative'>
       <div className='max-w-8xl mx-auto px-4 sm:px-6 relative'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6'>
-          <div className='py-5 md:py-5'>
+          <div className='py-5 md:py-20'>
             {/* Section header */}
 
             <ul

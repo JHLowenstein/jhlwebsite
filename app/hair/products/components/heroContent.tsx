@@ -7,7 +7,7 @@ export default function HeroContent() {
     <section>
       <div className='max-w-8xl mx-auto px-4 sm:px-6 relative'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6'>
-          <div className='py-5 md:py-20'>
+          <div className='py-5 md:py-10'>
             {/* Section header */}
             <div className='text-center mx-auto max-w-4xl pb-12 md:pb-16 '>
               {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}

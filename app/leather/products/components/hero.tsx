@@ -1,7 +1,4 @@
-import HeroContent from '@/app/hair/products/components/heroContent'
-
-import { timelineData } from '@/app/hair/products/components/timelineData'
-import { tableData } from '@/app/hair/products/components/tableData'
+import HeroContent from '@/app/leather/products/components/heroContent'
 
 export default function Hero() {
   return (

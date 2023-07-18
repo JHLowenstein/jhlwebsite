@@ -8,7 +8,7 @@ export const metadata = {
 import Hero from '@/app/hair/company/hero'
 import Particles from '@/app/hair/components/particles'
 
-export default function HairCompany() {
+export default function LeatherCompany() {
   return (
     <section>
       <div className='flex flex-col items-center justify-center overflow-hidden '>

@@ -79,13 +79,13 @@ export default function Hero() {
               />
               <CardSection
                 title='FUR'
-                link='/fur'
+                link='/'
                 imgSrc={FurModel}
                 imgAlt='Fur Model'
               />
               <CardSection
                 title='LEATHER'
-                link=''
+                link='/'
                 imgSrc={LeatherModel}
                 imgAlt='Leather Model'
               />

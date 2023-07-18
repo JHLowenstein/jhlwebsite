@@ -8,7 +8,7 @@ export default function Content() {
       <div className='max-w-6xl mx-auto px-4 sm:px-6 mb-20'>
         <div className='py-12 md:py-10 border-t border-gray-800'>
           <div className='grid gap-20'>
-            {/* Dye Intermediate */}
+            {/* Leather */}
             <div className='md:grid md:grid-cols-12 md:gap-6 items-center'>
               {/* Image */}
               <div
@@ -29,14 +29,17 @@ export default function Content() {
                 data-aos='fade-right'
               >
                 <div className='md:pr-4 lg:pr-12 xl:pr-16'>
-                  <h3 className='h3 mb-3 text-rose-500'>Dye Intermediates</h3>
+                  <h4 className='h4 mb-3 text-violet-500'>
+                    WHETHER IT‘S DEVELOPING NEW FORMULATIONS
+                  </h4>
                   <p className='text-xl text-gray-400 font-bold'>
-                    For permanent hair color are available, along with specially
-                    formulated bases and developers. The base materials for
-                    cream and liquid formulations are designed for maximum color
-                    deposition along with superior conditioning. Dyestuff and
-                    base materials are also available for semi-permanent and
-                    specialty systems.
+                    To help reduce pollution in tanneries, or stream-lining
+                    dyeing techniques, our Research and Development teams are
+                    working continuously to revolutionize the industry with
+                    innovative solutions to meet the challenges facing leather
+                    tanners worldwide. Technical support is available to the
+                    tanneries for the development of new articles, tailor-made
+                    processing, problem solving and color matching operations.
                   </p>
                 </div>
               </div>

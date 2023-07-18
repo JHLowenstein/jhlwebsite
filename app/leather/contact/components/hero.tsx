@@ -7,7 +7,7 @@ export default function Hero() {
     <section>
       <div className='max-w-8xl mx-auto px-4 sm:px-6 relative'>
         {/* Hero content */}
-        <div className='max-w-6xl pt-100 pb-10 mt7 md:pt-40'>
+        <div className='relative pt-100 pb-10 mt7 md:pt-40 md:pb-16'>
           <div className=''>
             <div className='text-center mx-auto max-w-4xl pb-5 md:pb-5 '>
               <h1

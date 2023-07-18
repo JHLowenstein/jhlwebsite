@@ -35,7 +35,7 @@ export default function Header() {
                 alt='logo'
                 src={Logo}
                 width={125}
-                style={{ opacity: '80%' }}
+                style={{ opacity: '90%' }}
               />
             </Link>
           </div>
@@ -49,15 +49,7 @@ export default function Header() {
                   href='/hair'
                   className='font-medium text-zinc-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  <span className='font-bold text-xl'>Hair</span>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/fur'
-                  className='font-medium text-zinc-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
-                >
-                  <span className='font-bold text-xl'>Fur</span>
+                  <span className='font-bold '>Hair</span>
                 </Link>
               </li>
               <li>
@@ -65,7 +57,15 @@ export default function Header() {
                   href='/'
                   className='font-medium text-zinc-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  <span className='font-bold text-xl'>Leather</span>
+                  <span className='font-bold '>Fur</span>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href='/'
+                  className='font-medium text-zinc-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                >
+                  <span className='font-bold'>Leather</span>
                 </Link>
               </li>
               {/* <li>

@@ -72,46 +72,37 @@ export default function MobileMenu() {
           <li>
             <Link
               href='/hair/company'
-              className='flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center'
+              className='flex text-gray-300 font-bold hover:text-gray-200 py-2'
               onClick={() => setMobileNavOpen(false)}
             >
-              Products
+              <span className='font-bold'>Company</span>
             </Link>
           </li>
           <li>
             <Link
               href='/hair/products'
-              className='font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out'
+              className='flex text-gray-300 font-bold hover:text-gray-200 py-2'
               onClick={() => setMobileNavOpen(false)}
             >
-              Products
+              <span className='font-bold'>Products</span>
             </Link>
           </li>
-          <li>
-            <Link
-              href='/hair/products'
-              className='font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out'
-              onClick={() => setMobileNavOpen(false)}
-            >
-              Products
-            </Link>
-          </li>{' '}
           <li>
             <Link
               href='/hair/services'
-              className='font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out'
+              className='flex text-gray-300 font-bold hover:text-gray-200 py-2'
               onClick={() => setMobileNavOpen(false)}
             >
-              Services
+              <span className='font-bold'>Services</span>
             </Link>
           </li>
           <li>
             <Link
               href='/hair/contact'
-              className='font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out'
+              className='flex font-bold text-gray-300 hover:text-gray-200 py-2'
               onClick={() => setMobileNavOpen(false)}
             >
-              Contact
+              <span className='font-bold'>Contact</span>
             </Link>
           </li>
         </ul>

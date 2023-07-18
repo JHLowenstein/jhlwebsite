@@ -43,7 +43,7 @@ export default function Content() {
                     <h3 className='h3 mb-3 cursor-default text-gray-300'>
                       HeadQuarters
                     </h3>
-                    <p className='text-gray-400 mb-4 text-bold'>
+                    <p className='text-gray-400 mb-4 text-xl font-bold'>
                       At JHL, we prioritize staying at the forefront of
                       technological advancements. To ensure this, we
                       consistently update and enhance our corporate headquarters
@@ -81,7 +81,7 @@ export default function Content() {
                     <h3 className='h3 mb-3 text-gray-300'>
                       Leading Technology
                     </h3>
-                    <p className='text-gray-400 mb-4'>
+                    <p className='text-gray-400 font-bold text-xl mb-4'>
                       Our commitment to quality and consistency is supported by
                       state-of-the-art instrumentation. We utilize advanced
                       equipment such as Gas Chromatographs, High-pressure Liquid
@@ -116,7 +116,7 @@ export default function Content() {
                 >
                   <div className='md:pr-4 lg:pr-12 xl:pr-16'>
                     <h3 className='h3 mb-3'>Global Distribution</h3>
-                    <p className='text-gray-400 mb-4'>
+                    <p className='text-gray-400 mb-4 text-xl font-bold'>
                       With over 100,000 square feet of manufacturing and
                       warehouse space, we have the capacity to handle both large
                       multi-ton orders and small one-color requests. Our global
