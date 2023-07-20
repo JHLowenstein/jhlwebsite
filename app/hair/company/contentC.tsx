@@ -22,12 +22,13 @@ export default function ContentC() {
           <div className='max-w-sm mx-auto grid gap-8 lg:grid-cols-2  items-start lg:max-w-none'>
             {/* 1st Box */}
             <div
-              className='flex flex-col h-full p-6 bg-gray-800'
+              className='flex flex-col h-full p-6 bg-gray-800 rounded-xl'
               data-aos='fade-up'
             >
               <div>
                 <div className='  mb-4'>
                   <Image
+                    className='rounded-xl'
                     src={David}
                     width={300}
                     height={200}
@@ -47,12 +48,13 @@ export default function ContentC() {
 
             {/* 2nd Box */}
             <div
-              className='flex flex-col h-full p-6 bg-gray-800'
+              className='flex flex-col h-full p-6 bg-gray-800 rounded-xl'
               data-aos='fade-up'
             >
               <div>
                 <div className='  mb-4'>
                   <Image
+                    className='rounded-xl'
                     src={Steve}
                     width={300}
                     height={200}

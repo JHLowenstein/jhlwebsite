@@ -17,7 +17,7 @@ export default function Contact() {
                   <input
                     id='first-name'
                     type='text'
-                    className='form-input w-full text-gray-300 border-red-500 focus:border-red-500'
+                    className='form-input w-full text-gray-300 '
                     placeholder='Enter your first name'
                   />
                 </div>
@@ -152,7 +152,7 @@ export default function Contact() {
               </div>
               <div className='flex flex-wrap -mx-3 mt-6'>
                 <div className='w-full px-3'>
-                  <button className='btn text-white bg-purple-600 hover:bg-purple-700 w-full'>
+                  <button className='btn text-white bg-rose-500 hover:bg-purple-600 w-full rounded-lg'>
                     Send
                   </button>
                 </div>

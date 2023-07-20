@@ -1,7 +1,8 @@
 import Image from 'next/image'
 
 import BKBridge from '@/public/images/jhl11.svg'
-import Chemist from '@/public/images/hex1.png'
+import Chemist from '@/public/images/chemist.png'
+import Clients from '@/public/images/businessClient.png'
 
 export default function Content() {
   return (
@@ -20,10 +21,10 @@ export default function Content() {
                 >
                   <div className=''>
                     <Image
-                      className='max-w-full mx-auto md:max-w-none h-auto'
+                      className='max-w-full mx-auto md:max-w-none h-auto rounded-xl'
                       src={BKBridge}
-                      width={540}
-                      height={405}
+                      width={440}
+                      height={205}
                       alt='Brooklyn Bridge'
                     />
                   </div>
@@ -59,10 +60,10 @@ export default function Content() {
                   data-aos='fade-up'
                 >
                   <Image
-                    className='max-w-full mx-auto md:max-w-none h-auto'
-                    src={BKBridge}
-                    width={540}
-                    height={405}
+                    className='max-w-full mx-auto md:max-w-none h-auto rounded-xl'
+                    src={Clients}
+                    width={440}
+                    height={205}
                     alt='Features 02'
                   />
                 </div>
@@ -94,11 +95,11 @@ export default function Content() {
                   data-aos='fade-up'
                 >
                   <Image
-                    className='max-w-full mx-auto md:max-w-none h-auto'
+                    className='max-w-full mx-auto md:max-w-none h-auto rounded-xl'
                     src={Chemist}
-                    width={340}
-                    height={105}
-                    alt='Features 03'
+                    width={440}
+                    height={205}
+                    alt='Color Chemist'
                   />
                 </div>
                 {/* Content */}

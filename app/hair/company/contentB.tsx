@@ -1,7 +1,8 @@
 import Image from 'next/image'
 
 import BKBridge from '@/public/images/jhl11.svg'
-import Models from '@/public/images/models.png'
+import Global from '@/public/images/globalNetwork.png'
+import Lab from '@/public/images/lab.png'
 
 export default function Content() {
   return (
@@ -30,10 +31,10 @@ export default function Content() {
                   data-aos='fade-up'
                 >
                   <Image
-                    className='max-w-full mx-auto md:max-w-none h-auto'
+                    className='max-w-full mx-auto md:max-w-none h-auto rounded-xl'
                     src={BKBridge}
-                    width={540}
-                    height={405}
+                    width={440}
+                    height={205}
                     alt='Features 01'
                   />
                 </div>
@@ -68,11 +69,11 @@ export default function Content() {
                   data-aos='fade-up'
                 >
                   <Image
-                    className='max-w-full mx-auto md:max-w-none h-auto'
-                    src={Models}
-                    width={240}
-                    height={105}
-                    alt='Features 02'
+                    className='max-w-full mx-auto md:max-w-none h-auto rounded-xl'
+                    src={Lab}
+                    width={440}
+                    height={205}
+                    alt='Leading Technology'
                   />
                 </div>
                 {/* Content */}
@@ -105,10 +106,10 @@ export default function Content() {
                   data-aos='fade-up'
                 >
                   <Image
-                    className='max-w-full mx-auto md:max-w-none h-auto'
-                    src={BKBridge}
-                    width={540}
-                    height={405}
+                    className='max-w-full mx-auto md:max-w-none h-auto rounded-xl'
+                    src={Global}
+                    width={440}
+                    height={205}
                     alt='Features 03'
                   />
                 </div>
