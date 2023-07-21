@@ -4,10 +4,10 @@ import Services from '@/public/images/servicesCover.jpg'
 
 export default function Hero() {
   return (
-    <section>
+    <section className='relative mb-20'>
       <div className='absolute inset-0'>
         <div
-          className='absolute inset-0 bg-gray-700 opacity-75'
+          className='absolute -inset-12 bg-gray-700 opacity-75'
           aria-hidden='true'
         ></div>
         <Image
@@ -16,7 +16,7 @@ export default function Hero() {
           width={1440}
           height={380}
           priority
-          alt='About'
+          alt='Services'
         />
       </div>
       <div className='max-w-8xl mx-auto px-4 sm:px-6 relative mb-20'>

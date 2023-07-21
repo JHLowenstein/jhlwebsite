@@ -14,7 +14,6 @@ import HairModel from '@/public/images/jhl6.svg'
 import FurModel from '@/public/images/jhl4.svg'
 import LeatherModel from '@/public/images/jhl3.svg'
 import CardSection from './card'
-import Image from 'next/image'
 
 export default function Home() {
   return (
