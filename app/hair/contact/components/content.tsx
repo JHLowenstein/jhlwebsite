@@ -109,36 +109,6 @@ const ContactSection: React.FC = () => {
                 </li>
               ))}
             </ul>
-            <h2
-              className='h2 text-center mx-auto max-w-4l mt-10 mb-10'
-              data-aos='fade-up'
-            >
-              Our Clients{' '}
-              <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
-                Span the Globe{' '}
-              </span>
-            </h2>
-            <Image
-              className='max-w-full mx-auto md:max-w-none h-auto'
-              src={World}
-              width={540}
-              height={405}
-              style={{ margin: 'auto' }}
-              data-aos='fade-up'
-              data-aos-delay='200'
-              alt='World Map'
-            />
-
-            <p
-              className='text-xl text-center font-bold  max-w-4l  text-gray-400 my-10'
-              data-aos='fade-up'
-            >
-              We have a widespread network of distributors, partners, and
-              representatives, enabling us to reach clients in different corners
-              of the world. From North America to Europe, Asia, and beyond, our
-              reach extends far and wide, allowing us to cater to the needs of
-              clients globally.
-            </p>
           </div>
         </div>
       </div>

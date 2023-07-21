@@ -5,7 +5,11 @@ export default function Contact() {
         <div className='max-w-6xl mx-auto px-4 sm:px-6 relative'>
           <div className='pb-12  md:pb-20'>
             {/* Contact form */}
-            <form className='max-w-xl mx-auto'>
+            <form
+              className='max-w-xl mx-auto'
+              data-aos='fade-up'
+              data-aos-delay='200'
+            >
               <div className='flex flex-wrap -mx-3 mb-4'>
                 <div className='w-full md:w-1/2 px-3 mb-4 md:mb-0'>
                   <label
@@ -152,7 +156,7 @@ export default function Contact() {
               </div>
               <div className='flex flex-wrap -mx-3 mt-6'>
                 <div className='w-full px-3'>
-                  <button className='btn text-white bg-rose-500 hover:bg-purple-600 w-full rounded-lg'>
+                  <button className='btn text-white bg-rose-500 hover:bg-rose-600 w-full rounded-lg'>
                     Send
                   </button>
                 </div>
