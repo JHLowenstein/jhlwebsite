@@ -2,9 +2,6 @@ import './css/style.css'
 
 import { Inter, Architects_Daughter } from 'next/font/google'
 
-import Header from '@/app/(default)/components/ui/header'
-import Banner from '@/app/(default)/components/banner'
-
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',

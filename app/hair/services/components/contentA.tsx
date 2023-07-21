@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import Service from '@/public/images/ladyHex.png'
 import Chemist from '@/public/images/gtt.png'
-import Support from '@/public/images/hexs.png'
+import Support from '@/public/images/lab.png'
 
 export default function Content() {
   return (
@@ -11,14 +11,7 @@ export default function Content() {
         <div className='max-w-6xl mx-auto px-4 sm:px-6'>
           <div className='py-5 md:py-20'>
             {/* Section header */}
-            <div className='text-center mx-auto max-w-4xl pb-12 md:pb-16 '>
-              <h1 className='h1' data-aos='fade-up' data-aos-delay='200'>
-                Discover JHL{' '}
-                <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
-                  Hair Services
-                </span>
-              </h1>
-            </div>
+            <div className='text-center mx-auto max-w-4xl pb-12 md:pb-16 '></div>
 
             {/* Items */}
             <div className='grid gap-20'>
@@ -46,8 +39,8 @@ export default function Content() {
                     <h4 className='h4 mb-3 cursor-default text-gray-300'>
                       Service, Quality and Value
                     </h4>
-                    <p className='text-gray-400 mb-4 text-bold'>
-                      <span className='font-bold'>
+                    <p className='text-gray-400 mb-4 font-bold text-xl'>
+                      <span className='text-rose-500'>
                         JHL HAS DEDICATED ITSELF
                       </span>{' '}
                       to the individual needs of its customers—from
@@ -89,11 +82,11 @@ export default function Content() {
                     <h4 className='h4 mb-3 text-gray-300'>
                       Leading Edge Color Technology
                     </h4>
-                    <p className='text-gray-400 mb-4 text-lg'>
-                      <span className='font-bold'>
-                        OUR EXPERT CHEMISTS AND TECHNICAL STAFF
-                      </span>
-                      , from around the world, respond quickly and accurately to
+                    <p className='text-gray-400 mb-4 font-bold text-xl'>
+                      <span className='text-rose-500'>
+                        OUR EXPERT CHEMISTS AND TECHNICAL STAFF,
+                      </span>{' '}
+                      from around the world, respond quickly and accurately to
                       provide formulation assistance, new color development,
                       consultation, product line enhancement or help in solving
                       complex dyeing issues for special applications. We’ll work
@@ -117,9 +110,9 @@ export default function Content() {
                   data-aos='fade-up'
                 >
                   <Image
-                    className='max-w-full mx-auto md:max-w-none h-auto'
+                    className='max-w-full mx-auto md:max-w-none h-auto rounded-xl'
                     src={Support}
-                    width={340}
+                    width={440}
                     height={205}
                     alt='Features 03'
                   />
@@ -133,10 +126,10 @@ export default function Content() {
                     <h4 className='h4 mb-3'>
                       Specialized Services For Hair Formulators
                     </h4>
-                    <p className='text-gray-400 mb-4 text-lg'>
-                      <span className='font-bold'>
-                        IN ADDITION TO THE COMPREHENSIVE SERVICE AND SUPPORT{' '}
-                      </span>
+                    <p className='text-gray-400 mb-4 font-bold text-xl'>
+                      <span className='text-rose-500'>
+                        IN ADDITION TO THE COMPREHENSIVE SERVICE AND SUPPORT
+                      </span>{' '}
                       provided to our customers, JHL hair color specialists and
                       formulators also provide valuable insights into navigating
                       rigorous regulatory issues, custom dye synthesis, and

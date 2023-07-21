@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import BKBridge from '@/public/images/jhl11.svg'
 import Global from '@/public/images/globalNetwork.png'
-import Lab from '@/public/images/lab.png'
+import Lab from '@/public/images/chromatograph.png'
 
 export default function Content() {
   return (
