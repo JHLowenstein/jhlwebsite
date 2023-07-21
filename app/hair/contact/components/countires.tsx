@@ -67,16 +67,18 @@ export default function TestimonialsCarousel() {
     {
       img: UserImage03,
       alt: 'Europe',
-      quote: '',
-      name: '',
+      quote:
+        'JHL caters to a wide range of clients based in France, Germany, Greece, Italy, Netherlands, Switzerland, Spain, United Kingdom, Bulgaria, Poland, Romania',
+      name: 'Europe',
       font1: 'text-amber-500',
       font2: 'text-lg text-gray-400',
     },
     {
       img: UserImage03,
-      alt: '',
-      quote: '',
-      name: '',
+      alt: 'Africa',
+      quote:
+        'JHL caters to a wide range of clients based throughout Egypt and South Africa',
+      name: 'Africa',
       font1: 'text-violet-500',
       font2: 'text-lg text-gray-400',
     },
