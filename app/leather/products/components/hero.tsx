@@ -1,4 +1,4 @@
-import HeroContent from '@/app/leather/products/components/heroContent'
+import HeroContent from '@/app/hair/products/components/heroContent'
 
 export default function Hero() {
   return (
