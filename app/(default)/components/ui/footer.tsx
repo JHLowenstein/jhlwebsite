@@ -50,7 +50,7 @@ export default function Footer() {
                   </li>
                   <li className='mb-1'>
                     <Link
-                      href='/'
+                      href='/hair/services'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
                       Services
@@ -66,7 +66,7 @@ export default function Footer() {
                   </li>
                   <li className='mb-1'>
                     <Link
-                      href='/'
+                      href='/hair/contact'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
                       Contact
@@ -81,7 +81,7 @@ export default function Footer() {
                 <ul>
                   <li className='mb-1'>
                     <Link
-                      href='/'
+                      href='/fur/products'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
                       Products
@@ -89,7 +89,7 @@ export default function Footer() {
                   </li>
                   <li className='mb-1'>
                     <Link
-                      href='/'
+                      href='/fur/services'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
                       Services
@@ -97,7 +97,7 @@ export default function Footer() {
                   </li>
                   <li className='mb-1'>
                     <Link
-                      href='/'
+                      href='/fur/company'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
                       Company
@@ -105,7 +105,7 @@ export default function Footer() {
                   </li>
                   <li className='mb-1'>
                     <Link
-                      href='/'
+                      href='/fur/contact'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
                       Contact
@@ -120,7 +120,7 @@ export default function Footer() {
                 <ul>
                   <li className='mb-1'>
                     <Link
-                      href='/'
+                      href='/leather/products'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
                       Products
@@ -128,7 +128,7 @@ export default function Footer() {
                   </li>
                   <li className='mb-1'>
                     <Link
-                      href='/'
+                      href='/leather/services'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
                       Services
@@ -136,7 +136,7 @@ export default function Footer() {
                   </li>
                   <li className='mb-1'>
                     <Link
-                      href='/'
+                      href='/leather/company'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
                       Company
@@ -144,7 +144,7 @@ export default function Footer() {
                   </li>
                   <li className='mb-1'>
                     <Link
-                      href='/'
+                      href='/leather/contact'
                       className='text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out'
                     >
                       Contact

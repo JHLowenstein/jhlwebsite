@@ -1,6 +1,7 @@
 import HairModel from '@/public/images/jhl6.svg'
 import HairDye from '@/public/images/testtube.png'
 import Image from 'next/image'
+import '@/app/css/style.css'
 
 export default function Hero() {
   return (
@@ -59,7 +60,7 @@ export default function Hero() {
                 src={HairModel}
                 width='200'
                 height='175'
-                style={{ margin: 'auto' }}
+                style={{ margin: 'auto', pointerEvents: 'none' }}
                 data-aos='fade-up'
                 data-aos-delay='200'
               />

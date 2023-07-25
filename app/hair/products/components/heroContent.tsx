@@ -17,14 +17,16 @@ export default function HeroContent() {
                   Hair Products
                 </span>
               </h1>
-              <h4
-                className='h4 text-gray-400 font-semibold'
-                data-aos='fade-up'
-                data-aos-delay='200'
-              >
-                Our team at JHL is devoted to delivering the highest quality of
-                products to ensure our clients' satisfaction is always met
-              </h4>
+              <div className='hidden md:block container'>
+                {/* <h4
+                  className='h4 text-gray-400 font-semibold hidden md:block'
+                  data-aos='fade-up'
+                  data-aos-delay='200'
+                >
+                  Our team at JHL is devoted to delivering the highest quality
+                  of products to ensure our clients' satisfaction is always met
+                </h4> */}
+              </div>
             </div>
 
             {/* Items */}

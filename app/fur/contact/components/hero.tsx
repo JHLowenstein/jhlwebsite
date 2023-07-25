@@ -1,3 +1,7 @@
+import Image from 'next/image'
+
+import World from '@/public/images/jhl12.svg'
+
 export default function Hero() {
   return (
     <section>
@@ -18,7 +22,7 @@ export default function Hero() {
                 </span>
               </h1>
               <p
-                className='text-xl text-center mx-auto font-semibold max-w-4l text-gray-400 mb-10'
+                className='text-xl text-center mx-auto max-w-4l text-gray-400 mb-10'
                 data-aos='fade-up'
               >
                 We're happy to answer any questions you may have about our color

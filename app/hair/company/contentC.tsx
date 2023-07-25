@@ -33,7 +33,7 @@ export default function ContentC() {
                     width={300}
                     height={200}
                     alt='Testimonial 01'
-                    style={{ margin: 'auto' }}
+                    style={{ margin: 'auto', pointerEvents: 'none' }}
                   />
                 </div>
               </div>
@@ -59,7 +59,7 @@ export default function ContentC() {
                     width={300}
                     height={200}
                     alt='Testimonial 01'
-                    style={{ margin: 'auto' }}
+                    style={{ margin: 'auto', pointerEvents: 'none' }}
                   />
                 </div>
               </div>

@@ -10,7 +10,7 @@ import Particles from '@/app/hair/components/particles'
 import ContentA from '@/app/hair/company/contentA'
 import ContentB from '@/app/hair/company/contentB'
 import ContentC from '@/app/hair/company/contentC'
-import Team from '@/app/hair/company/imageMosaic'
+import Team from '@/app/(default)/components/imageMosaic'
 
 export default function HairCompany() {
   return (

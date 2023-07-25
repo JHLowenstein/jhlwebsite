@@ -10,6 +10,7 @@ import React from 'react'
 
 import Hero from '@/app/hair/products/components/hero'
 import HairProducts from '@/app/hair/products/components/hairProducts'
+import MosaicImages from '@/app/(default)/components/imageMosaic'
 
 import Particles from '@/app/hair/components/particles'
 
@@ -17,6 +18,7 @@ export default function HairProductsf() {
   return (
     <>
       <Hero />
+      <MosaicImages />
       <div className='flex flex-col items-center justify-center overflow-hidden '>
         <div className='hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0' />
         <Particles

@@ -25,6 +25,7 @@ export default function Content() {
                       src={BKBridge}
                       width={440}
                       height={205}
+                      style={{ margin: 'auto', pointerEvents: 'none' }}
                       alt='Brooklyn Bridge'
                     />
                   </div>
@@ -64,7 +65,8 @@ export default function Content() {
                     src={Clients}
                     width={440}
                     height={205}
-                    alt='Features 02'
+                    alt='Client Handshake'
+                    style={{ margin: 'auto', pointerEvents: 'none' }}
                   />
                 </div>
                 {/* Content */}
@@ -99,6 +101,7 @@ export default function Content() {
                     src={Chemist}
                     width={440}
                     height={205}
+                    style={{ margin: 'auto', pointerEvents: 'none' }}
                     alt='Color Chemist'
                   />
                 </div>

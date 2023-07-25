@@ -1,21 +1,22 @@
 import Image from 'next/image'
 
-import Products from '@/public/images/jhl12.png'
+import Products from '@/public/images/colorExplosion.png'
 
 export default function Hero() {
   return (
     <section className='relative mb-20'>
       <div className='absolute inset-0'>
         <Image
-          className='w-screen  object-cover'
+          className='w-screen h-auto hidden md:block object-cover'
           src={Products}
           width={1440}
-          height={280}
+          height={380}
+          style={{ pointerEvents: 'none' }}
           priority
-          alt='About'
+          alt='Products'
         />
         <div
-          className='absolute -inset-12 bg-gray-700 opacity-75'
+          className='absolute hidden md:block inset-0 bg-gray-700 opacity-75'
           aria-hidden='true'
         ></div>
       </div>

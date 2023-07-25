@@ -36,6 +36,7 @@ export default function Content() {
                     width={440}
                     height={205}
                     alt='Features 01'
+                    style={{ margin: 'auto', pointerEvents: 'none' }}
                   />
                 </div>
                 {/* Content */}
@@ -74,6 +75,7 @@ export default function Content() {
                     width={440}
                     height={205}
                     alt='Leading Technology'
+                    style={{ margin: 'auto', pointerEvents: 'none' }}
                   />
                 </div>
                 {/* Content */}
@@ -111,6 +113,7 @@ export default function Content() {
                     width={440}
                     height={205}
                     alt='Features 03'
+                    style={{ margin: 'auto', pointerEvents: 'none' }}
                   />
                 </div>
                 {/* Content */}

@@ -144,16 +144,7 @@ export default function Contact() {
                   ></textarea>
                 </div>
               </div>
-              <div className='flex flex-wrap -mx-3 mb-4'>
-                <div className='w-full px-3'>
-                  <label className='flex items-center'>
-                    <input type='checkbox' className='form-checkbox' />
-                    <span className='text-gray-400 ml-2'>
-                      I agree to the privacy policy
-                    </span>
-                  </label>
-                </div>
-              </div>
+
               <div className='flex flex-wrap -mx-3 mt-6'>
                 <div className='w-full px-3'>
                   <button className='btn text-white bg-rose-500 hover:bg-rose-600 w-full rounded-lg'>

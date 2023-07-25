@@ -31,8 +31,8 @@ export default function TeamImages() {
             >
               <Image
                 src={TeamMosaic02}
-                width='600'
-                height='338'
+                width='500'
+                height='238'
                 alt='Team mosaic 01'
               />
             </figure>

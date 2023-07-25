@@ -36,7 +36,7 @@ export default function TestimonialsCarousel() {
         'JHL caters to a wide range of clients based in the United States, Mexico and Puerto Rico.',
       name: 'NORTH AMERICA',
       font1: 'text-rose-500',
-      font2: 'text-lg text-gray-400 font-semibold',
+      font2: 'text-lg text-gray-400',
     },
     {
       img: UserImage02,
@@ -45,7 +45,7 @@ export default function TestimonialsCarousel() {
         'JHL caters to a wide range of clients based in Argentina, Brazil, Colombia, Ecuador and Venezuela',
       name: 'SOUTH AMERICA',
       font1: 'text-orange-500 not-italic',
-      font2: 'text-lg text-gray-400 font-semibold',
+      font2: 'text-lg text-gray-400',
     },
     {
       img: UserImage03,
@@ -54,7 +54,7 @@ export default function TestimonialsCarousel() {
         'JHL caters to a wide range of clients based in Belarus, China, Hong Kong, India, Indonesia, Israel, Japan, Korea, Lebanon, Malaysia, Philippines, Pakistan, Russia, Singapore, Sri Lanka, Turkey, Taiwan, Thailand and Vietnam',
       name: 'ASIA/ MIDDLE EAST',
       font1: 'text-emerald-500',
-      font2: 'text-lg text-gray-400 font-semibold ',
+      font2: 'text-lg text-gray-400',
     },
     {
       img: UserImage03,
@@ -62,7 +62,7 @@ export default function TestimonialsCarousel() {
       quote: 'JHL caters to a wide range of clients based throughout Australia',
       name: 'Australia',
       font1: 'text-sky-500',
-      font2: 'text-lg text-gray-400 font-semibold',
+      font2: 'text-lg text-gray-400',
     },
     {
       img: UserImage03,
@@ -71,7 +71,7 @@ export default function TestimonialsCarousel() {
         'JHL caters to a wide range of clients based in France, Germany, Greece, Italy, Netherlands, Switzerland, Spain, United Kingdom, Bulgaria, Poland, Romania',
       name: 'Europe',
       font1: 'text-amber-500',
-      font2: 'text-lg text-gray-400 font-semibold',
+      font2: 'text-lg text-gray-400',
     },
     {
       img: UserImage03,
@@ -80,7 +80,7 @@ export default function TestimonialsCarousel() {
         'JHL caters to a wide range of clients based throughout Egypt and South Africa',
       name: 'Africa',
       font1: 'text-violet-500',
-      font2: 'text-lg text-gray-400 font-semibold',
+      font2: 'text-lg text-gray-400',
     },
   ]
 
@@ -122,7 +122,7 @@ export default function TestimonialsCarousel() {
               </span>
             </h2>
             <p
-              className='text-xl text-center  max-w-4l font-semibold text-gray-400 my-10'
+              className='text-xl text-center  max-w-4l  text-gray-400 my-10'
               data-aos='fade-up'
             >
               We have a widespread network of distributors, partners, and
@@ -154,7 +154,7 @@ export default function TestimonialsCarousel() {
                     r='12'
                   />
                 </svg>
-                <span className='font-semibold'>NORTH AMERICA</span>
+                <span className=''>NORTH AMERICA</span>
               </li>
               <li
                 className='flex items-center mx-3 my-2'
@@ -174,7 +174,7 @@ export default function TestimonialsCarousel() {
                     r='12'
                   />
                 </svg>
-                <span className='font-semibold'>SOUTH AMERICA</span>
+                <span>SOUTH AMERICA</span>
               </li>
               <li
                 className='flex items-center mx-3 my-2'
@@ -194,7 +194,7 @@ export default function TestimonialsCarousel() {
                     r='12'
                   />
                 </svg>
-                <span className='font-semibold'>ASIA/MIDDLE EAST</span>
+                <span>ASIA/MIDDLE EAST</span>
               </li>
               <li
                 className='flex items-center mx-3 my-2'
@@ -214,7 +214,7 @@ export default function TestimonialsCarousel() {
                     r='12'
                   />
                 </svg>
-                <span className='font-semibold'>AUSTRALIA</span>
+                <span>AUSTRALIA</span>
               </li>
               <li
                 className='flex items-center mx-3 my-2'
@@ -234,7 +234,7 @@ export default function TestimonialsCarousel() {
                     r='12'
                   />
                 </svg>
-                <span className='font-semibold'>EUROPE</span>
+                <span>EUROPE</span>
               </li>
               <li
                 className='flex items-center mx-3 my-2'
@@ -254,7 +254,7 @@ export default function TestimonialsCarousel() {
                     r='12'
                   />
                 </svg>
-                <span className='font-semibold'>AFRICA</span>
+                <span>AFRICA</span>
               </li>
             </ul>
           </div>
@@ -405,7 +405,7 @@ export default function TestimonialsCarousel() {
               </div>
 
               {/* Bullets */}
-              <div className='flex font-semibold justify-center mt-6'>
+              <div className='flex justify-center mt-6'>
                 {items.map((item, index) => (
                   <button
                     className='p-1 group'

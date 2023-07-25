@@ -18,16 +18,22 @@ export default function HairProducts() {
   }, [])
 
   return (
-    <section className='relative mb-20'>
+    <section className='relative my-20'>
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div
-        className='absolute inset-0  pointer-events-none mb-16'
-        aria-hidden='true'
-      ></div>
-      {/* <div className='absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2'></div> */}
+      <div className='container'></div>
 
       <div className='relative max-w-6xl mx-auto px-4 sm:px-6'>
         <div className='pt-5 md:pt-5'>
+          <h1 className='h1 '>Hair Products</h1>
+          <h4
+            className='h4 text-gray-400 font-semibold my-3'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
+            Our team at JHL is devoted to delivering the highest <br /> quality
+            of products to ensure our clients' satisfaction <br /> is always
+            met.
+          </h4>
           {/* Section content */}
           <div className='md:grid md:grid-cols-12 md:gap-6'>
             {/* Content */}

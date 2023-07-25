@@ -82,7 +82,7 @@ const ContactSection: React.FC = () => {
     <section className='relative'>
       <div className='max-w-8xl mx-auto px-4 sm:px-6 relative'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6'>
-          <div className='py-5 md:py-5'>
+          <div className='py-5 md:py-5 font-semibold'>
             {/* Section header */}
 
             <ul
@@ -91,17 +91,23 @@ const ContactSection: React.FC = () => {
             >
               {contactMethods.map((item, idx) => (
                 <li key={idx}>
-                  <h4 className='text-gray-400 text-center text-lg font-bold'>
+                  <h4 className='text-gray-400 font-semibold text-center text-lg font-bold'>
                     {item.title}
                   </h4>
-                  <div className='mt-3 flex items-center gap-x-3'>
+                  <div className='mt-3 flex font-semibold items-center gap-x-3'>
                     <div className='flex-none text-center text-gray-400 text-xl font-bold'>
                       {item.icon}
                     </div>
                     {item.title === 'Phone' ? (
-                      <a href={`tel:${item.contact}`}>{item.contact}</a>
+                      <a className='font-semibold' href={`tel:${item.contact}`}>
+                        {item.contact}
+                      </a>
                     ) : (
-                      <a href={`mailto:${item.contact}`} target='blank'>
+                      <a
+                        className='font-semibold'
+                        href={`mailto:${item.contact}`}
+                        target='blank'
+                      >
                         {item.contact}
                       </a>
                     )}

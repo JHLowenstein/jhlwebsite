@@ -10,7 +10,7 @@ export const metadata = {
 import React from 'react'
 import Particles from '@/app/hair/components/particles'
 import Hero from '@/app/hair/services/components/hero'
-import ServiceImages from '@/app/hair/services/components/imageMosaic'
+import ServiceImages from '@/app/(default)/components/imageMosaic'
 import ContentA from '@/app/hair/services/components/contentA'
 
 export default function HairServices() {

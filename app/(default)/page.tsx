@@ -8,7 +8,7 @@ export const metadata = {
 }
 
 import Hero from '@/app/(default)/components/hero'
-import React from 'react'
+
 import Particles from '@/app/(default)/components/particles'
 import HairModel from '@/public/images/jhl6.svg'
 import FurModel from '@/public/images/jhl4.svg'

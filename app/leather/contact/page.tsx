@@ -10,8 +10,8 @@ import React from 'react'
 
 import Hero from '@/app/leather/contact/components/hero'
 import ContactSection from '@/app/leather/contact/components/content'
-import Countries from '@/app/leather/contact/components/countires'
-import Contact from '@/app/leather/contact/components/form'
+import Countries from '@/app/(default)/components/countries'
+import Contact from '@/app/(default)/components/form'
 
 import Particles from '@/app/leather/components/particles'
 

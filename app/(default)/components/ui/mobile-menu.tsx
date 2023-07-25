@@ -97,13 +97,13 @@ export default function MobileMenu() {
             </Link>
           </li>
           <li>
-            <Link
+            {/* <Link
               href='/contact'
               className='flex font-bold text-gray-300 hover:text-gray-200 py-2'
               onClick={() => setMobileNavOpen(false)}
             >
               <span className='font-bold'>Contact</span>
-            </Link>
+            </Link> */}
           </li>
         </ul>
       </nav>

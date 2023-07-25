@@ -122,7 +122,7 @@ export default function TestimonialsCarousel() {
               </span>
             </h2>
             <p
-              className='text-xl text-center  max-w-4l  text-gray-400 my-10'
+              className='text-xl text-center font-semibold max-w-4l  text-gray-400 my-10'
               data-aos='fade-up'
             >
               We have a widespread network of distributors, partners, and
