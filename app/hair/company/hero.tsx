@@ -25,10 +25,11 @@ export default function Hero() {
         <div className='pt-32 pb-12 md:pt-40 md:pb-20'>
           <div className='max-w-3xl mx-auto text-center'>
             <h1 className='h1 mb-8' data-aos='fade-up'>
-              We have Provided a Tradition of Excellence for Over{' '}
+              Perfecting the Art of{' '}
               <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
-                100 Years
-              </span>
+                Color Formulation
+              </span>{' '}
+              since 1897
             </h1>
             {/* <p
               className='text-xl text-gray-400 mb-8'

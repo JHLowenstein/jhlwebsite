@@ -26,15 +26,21 @@ export default function Hero() {
         <div className='pt-32 pb-12 md:pt-40 md:pb-20'>
           <div className='max-w-3xl mx-auto text-center'>
             <h1 className='h1 mb-4' data-aos='fade-up'>
-              The story behind the project
+              Discover the{' '}
+              <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
+                Hair Services
+              </span>{' '}
+              offered by the staff at JHL
             </h1>
+
             <p
               className='text-xl text-gray-400 mb-8'
               data-aos='fade-up'
               data-aos-delay='200'
             >
-              Developers are trusted to create an engaging experience for their
-              companies, so we build tools to help them.
+              Our team of expert chemists and technical staff is dedicated to
+              delivering exceptional color formulation services, ensuring a
+              captivating and satisfying experience for our valued clients.
             </p>
           </div>
         </div>

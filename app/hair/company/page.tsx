@@ -12,6 +12,7 @@ import ContentB from '@/app/hair/company/contentB'
 import ContentC from '@/app/hair/company/contentC'
 import Team from '@/app/(default)/components/imageMosaic'
 import Timeline from '@/app/(default)/components/timeline'
+import Countries from '@/app/(default)/components/countries'
 
 export default function HairCompany() {
   return (
@@ -25,9 +26,10 @@ export default function HairCompany() {
           className='absolute inset-0 -z-10 animate-fade-in'
           quantity={200}
         />
-        <Timeline />
         <ContentA />
+        {/* <Timeline /> */}
         <ContentB />
+        <Countries />
         <ContentC />
       </div>
     </section>

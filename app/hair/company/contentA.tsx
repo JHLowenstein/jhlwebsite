@@ -9,7 +9,17 @@ export default function Content() {
     <section className='relative'>
       <div className='max-w-8xl mx-auto px-4 sm:px-6 relative'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6'>
-          <div className='py-5 md:py-20'>
+          <div className='py-12 md:py-20 border-t border-gray-700'>
+            {/* Section header */}
+            <div className='max-w-4xl mx-auto  pb-12 md:pb-16 text-center'>
+              {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}
+              <h2 className='h2' data-aos='fade-up' data-aos-delay='200'>
+                We have Provided a Tradition of Excellence for Over{' '}
+                <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
+                  100 Years
+                </span>
+              </h2>
+            </div>
             {/* Items */}
             <div className='grid gap-20'>
               {/* 1st item */}
