@@ -6,7 +6,11 @@ export default function Timeline() {
           {/* Section header */}
           <div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
             <h2 className='h2 mb-4'>
-              Perfecting the Art of Color Formulation since 1897{' '}
+              Perfecting the Art of{' '}
+              <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
+                Color Formulation
+              </span>{' '}
+              since 1897
             </h2>
             {/* <p className="text-xl text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
           </div>
@@ -23,9 +27,9 @@ export default function Timeline() {
               data-aos-anchor='[data-aos-id-timeline]'
             >
               <div className='pl-2'>
-                <div className=' text-xl text-violet-500 mb-2'>Genesis</div>
+                <div className=' text-xl text-sky-500 mb-2'>Genesis</div>
                 <div className='flex items-center mb-3'>
-                  <div className='absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-green-600 bg-green-200 rounded-full'>
+                  <div className='absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-sky-600 bg-sky-200 rounded-full'>
                     1897
                   </div>
                   <div
@@ -33,12 +37,11 @@ export default function Timeline() {
                     aria-hidden='true'
                   ></div>
                   <div
-                    className='absolute left-0 w-2 h-2 bg-violet-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
+                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
                     aria-hidden='true'
                   ></div>
                   <h4 className='h4'>
-                    JHL was founded in Brooklyn, New York by Joseph H.
-                    Lowenstein
+                    JHL was founded by Joseph H. Lowenstein
                   </h4>
                 </div>
                 <p className='text-lg text-gray-400'>
@@ -58,9 +61,9 @@ export default function Timeline() {
               data-aos-anchor='[data-aos-id-timeline]'
             >
               <div className='pl-2'>
-                <div className=' text-xl text-violet-500 mb-2'>Growth</div>
+                <div className=' text-xl text-sky-500 mb-2'>Growth</div>
                 <div className='flex items-center mb-3'>
-                  <div className='absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-green-600 bg-green-200 rounded-full'>
+                  <div className='absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-sky-600 bg-sky-200 rounded-full'>
                     1920s
                   </div>
                   <div
@@ -68,7 +71,7 @@ export default function Timeline() {
                     aria-hidden='true'
                   ></div>
                   <div
-                    className='absolute left-0 w-2 h-2 bg-violet-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
+                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
                     aria-hidden='true'
                   ></div>
                   <h4 className='h4'>A Star Grows in Brooklyn</h4>
@@ -89,9 +92,9 @@ export default function Timeline() {
               data-aos-anchor='[data-aos-id-timeline]'
             >
               <div className='pl-2'>
-                <div className=' text-xl text-violet-500 mb-2'>Legacy</div>
+                <div className=' text-xl text-sky-500 mb-2'>Grandeur</div>
                 <div className='flex items-center mb-3'>
-                  <div className='absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-green-600 bg-green-200 rounded-full'>
+                  <div className='absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-sky-600 bg-sky-200 rounded-full'>
                     1950s
                   </div>
                   <div
@@ -99,12 +102,10 @@ export default function Timeline() {
                     aria-hidden='true'
                   ></div>
                   <div
-                    className='absolute left-0 w-2 h-2 bg-violet-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
+                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
                     aria-hidden='true'
                   ></div>
-                  <h4 className='h4'>
-                    Revolutionizing Color: Where Science and Innovation Meet
-                  </h4>
+                  <h4 className='h4'>Revolutionizing Color Formulation</h4>
                 </div>
                 <p className='text-lg text-gray-400'>
                   Embracing the 1950s Technological Wave: Meet Steve Lowenstein,
@@ -122,16 +123,61 @@ export default function Timeline() {
               data-aos-anchor='[data-aos-id-timeline]'
             >
               <div className='pl-2'>
-                <div className=' text-xl text-violet-500 mb-2'></div>
+                <div className=' text-xl text-sky-500 mb-2'>Global</div>
                 <div className='flex items-center mb-3'>
-                  <div className='absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-green-600 bg-green-200 rounded-full'></div>
+                  <div className='absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-sky-600 bg-sky-200 rounded-full'>
+                    1970s
+                  </div>
                   <div
-                    className='absolute left-0 w-2 h-2 bg-violet-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
+                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
                     aria-hidden='true'
                   ></div>
-                  <h4 className='h4'></h4>
+                  <h4 className='h4'>
+                    {' '}
+                    Steve Lowenstein's Vision Unites Continents
+                  </h4>
                 </div>
-                <p className='text-lg text-gray-400'></p>
+                <p className='text-lg text-gray-400'>
+                  Leading JHL into a Global Future, Steve continues his vision
+                  of JHL as a multinational company and establishes a strong
+                  foreign-trade presence in Asia, Europe, Australia, the Middle
+                  East and South America.
+                </p>
+              </div>
+            </div>
+
+            {/* 5th item */}
+            <div
+              className='relative py-4 md:py-6 pl-24'
+              data-aos='fade-up'
+              data-aos-delay='600'
+              data-aos-anchor='[data-aos-id-timeline]'
+            >
+              <div className='pl-2'>
+                <div className=' text-xl text-sky-500 mb-2'>Gentry</div>
+                <div className='flex items-center mb-3'>
+                  <div className='absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-sky-600 bg-sky-200 rounded-full'>
+                    1990s
+                  </div>
+                  <div
+                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
+                    aria-hidden='true'
+                  ></div>
+                  <h4 className='h4'>
+                    {' '}
+                    Continuing Traditions, Crafting Innovations: Meet David
+                    Lowenstein
+                  </h4>
+                </div>
+                <p className='text-lg text-gray-400'>
+                  In 1995, David Lowenstein, the eldest of Steve's two sons,
+                  joined the family tradition and brought his expertise in
+                  leather technology from post-graduate studies in North
+                  Hampton, England to the JHL leather research labs. Under his
+                  guidance, the labs experience a remarkable blend of quality
+                  and innovation, combining the art of color dye formulation
+                  with the latest fashion trends.
+                </p>
               </div>
             </div>
           </div>
