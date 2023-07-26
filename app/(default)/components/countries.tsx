@@ -281,85 +281,97 @@ export default function TestimonialsCarousel() {
                   height={330}
                   alt='World map'
                 />
-                <Image
-                  className='absolute rounded-full'
-                  style={{ top: '22%', left: '52%' }}
-                  src={UserImage01}
-                  width={32}
-                  height={32}
-                  alt='User 01'
+                {/* Europe */}
+                <svg
+                  className='w-10 h-10 md:w-20 md:h-20 mr-3 shrink-2'
+                  viewBox='0 0 24 24'
+                  xmlns='http://www.w3.org/2000/svg'
+                  style={{ position: 'absolute', top: '25%', left: '55%' }}
                   data-aos='fade-up'
-                />
-                <Image
-                  className='absolute rounded-full'
-                  style={{ top: '50%', left: '58%' }}
-                  src={UserImage02}
-                  width={48}
-                  height={48}
-                  alt='User 02'
+                >
+                  <circle
+                    className='fill-current text-amber-500'
+                    cx='12'
+                    cy='12'
+                    r='12'
+                  />
+                </svg>
+
+                {/* Asia/ Middle East */}
+                <svg
+                  className='w-10 h-10 md:w-20 md:h-20 mr-3 shrink-0'
+                  viewBox='0 0 24 24'
+                  xmlns='http://www.w3.org/2000/svg'
+                  style={{ position: 'absolute', top: '34%', left: '76.5%' }}
                   data-aos='fade-up'
-                  data-aos-delay='400'
-                />
-                <Image
-                  className='absolute rounded-full'
-                  style={{ top: '8.5%', left: '70.5%' }}
-                  src={UserImage03}
-                  width={56}
-                  height={56}
-                  alt='User 02'
+                >
+                  <circle
+                    className='fill-current text-emerald-500'
+                    cx='12'
+                    cy='12'
+                    r='12'
+                  />
+                </svg>
+                {/* North America */}
+                <svg
+                  className='w-10 h-10 md:w-20 md:h-20 mr-3 shrink-0'
+                  viewBox='0 0 24 24'
+                  xmlns='http://www.w3.org/2000/svg'
+                  style={{ position: 'absolute', top: '29.5%', left: '15.5%' }}
                   data-aos='fade-up'
-                  data-aos-delay='100'
-                />
-                <Image
-                  className='absolute rounded-full'
-                  style={{ top: '34%', left: '76.5%' }}
-                  src={UserImage04}
-                  width={72}
-                  height={72}
-                  alt='User 04'
+                >
+                  <circle
+                    className='fill-current text-rose-500'
+                    cx='12'
+                    cy='12'
+                    r='12'
+                  />
+                </svg>
+                {/* South America */}
+                <svg
+                  className='w-10 h-10 md:w-20 md:h-20 mr-3 shrink-0'
+                  viewBox='0 0 24 24'
+                  xmlns='http://www.w3.org/2000/svg'
+                  style={{ position: 'absolute', top: '60.5%', left: '25.5%' }}
                   data-aos='fade-up'
-                  data-aos-delay='700'
-                />
-                <Image
-                  className='absolute rounded-full'
-                  style={{ top: '29.5%', left: '8.5%' }}
-                  src={UserImage05}
-                  width={48}
-                  height={48}
-                  alt='User 05'
+                >
+                  <circle
+                    className='fill-current text-orange-500'
+                    cx='12'
+                    cy='12'
+                    r='12'
+                  />
+                </svg>
+                {/* Africa */}
+                <svg
+                  className='w-10 h-10 md:w-20 md:h-20 mr-3 shrink-0'
+                  viewBox='0 0 24 24'
+                  xmlns='http://www.w3.org/2000/svg'
+                  style={{ position: 'absolute', top: '39%', left: '43%' }}
                   data-aos='fade-up'
-                  data-aos-delay='500'
-                />
-                <Image
-                  className='absolute rounded-full'
-                  style={{ top: '56%', left: '19%' }}
-                  src={UserImage06}
-                  width={56}
-                  height={56}
-                  alt='User 06'
+                >
+                  <circle
+                    className='fill-current text-violet-500'
+                    cx='12'
+                    cy='12'
+                    r='12'
+                  />
+                </svg>
+                {/* Australia */}
+                <svg
+                  className='w-10 h-10 md:w-20 md:h-20 mr-3 shrink-0'
+                  viewBox='0 0 24 24'
+                  xmlns='http://www.w3.org/2000/svg'
+                  style={{ position: 'absolute', top: '75%', left: '80%' }}
                   data-aos='fade-up'
-                  data-aos-delay='200'
-                />
-                <Image
-                  className='absolute rounded-full'
-                  style={{ top: '20%', left: '24.5%' }}
-                  src={UserImage07}
-                  width={64}
-                  height={64}
-                  alt='User 07'
-                  data-aos='fade-up'
-                  data-aos-delay='600'
-                />
-                <Image
-                  className='absolute rounded-full'
-                  style={{ top: '39%', left: '43%' }}
-                  src={UserImage08}
-                  width={40}
-                  height={40}
-                  alt='User 08'
-                  data-aos='fade-up'
-                  data-aos-delay='300'
-                />
+                >
+                  <circle
+                    className='fill-current text-sky-500'
+                    cx='12'
+                    cy='12'
+                    r='12'
+                  />
+                </svg>
               </div>
             </div>
 
