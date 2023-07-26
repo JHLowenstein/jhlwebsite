@@ -27,7 +27,7 @@ export default function HairContact() {
         <Hero />
         <Contact />
         <ContactSection />
-        <Countries />
+        {/* <Countries /> */}
       </div>
     </>
   )

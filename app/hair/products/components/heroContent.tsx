@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import BKBridge from '@/public/images/testtubes.png'
+import Products from '@/public/images/productsHeader.png'
 
 export default function HeroContent() {
   return (
@@ -40,7 +40,7 @@ export default function HeroContent() {
                 >
                   <Image
                     className='max-w-full mx-auto md:max-w-none h-auto'
-                    src={BKBridge}
+                    src={Products}
                     width={540}
                     height={405}
                     alt='Features 01'
