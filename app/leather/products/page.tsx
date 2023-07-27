@@ -8,10 +8,9 @@ export const metadata = {
 }
 import React from 'react'
 
-import Hero from '@/app/hair/products/components/hero'
-import HairProducts from '@/app/hair/products/components/hairProducts'
-import Particles from '@/app/hair/components/particles'
-import Products from '@/app/leather/products/components/product'
+import Hero from '@/app/(default)/components/leatherProducts/leatherProdHero'
+import LeatherProducts from '@/app/(default)/components/leatherProducts/leatherProducts'
+import Particles from '@/app/(default)/components/particles'
 
 export default function HairProductsf() {
   return (
@@ -24,7 +23,7 @@ export default function HairProductsf() {
         />
         <Hero />
         {/* <HairProducts /> */}
-        <Products />
+        <LeatherProducts />
       </div>
     </>
   )

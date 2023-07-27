@@ -7,10 +7,9 @@ import 'aos/dist/aos.css'
 
 import '@/app/css/style.css'
 
-import PageIllustration from '@/app/hair/components/page-illustration'
-import Header from '@/app/hair/components/ui/header'
-import Header2 from '@/app/hair/components/ui/header2'
-import Footer from '@/app/hair/components/ui/footer'
+import Header from '@/app/(default)/components/ui/hairHeader'
+
+import Footer from '@/app/(default)/components/ui/footer2'
 
 export default function HairLayout({
   children,

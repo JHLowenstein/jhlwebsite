@@ -12,7 +12,7 @@ export default function Timeline() {
               </span>{' '}
               since 1897
             </h2>
-            {/* <p className="text-xl text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+            {/* <p className="text-xl text-snow-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
           </div>
 
           {/* Items */}
@@ -33,18 +33,18 @@ export default function Timeline() {
                     1897
                   </div>
                   <div
-                    className='absolute left-0 h-full px-px bg-gray-800 ml-20 self-start transform -translate-x-1/2 translate-y-3'
+                    className='absolute left-0 h-full px-px bg-snow-800 ml-20 self-start transform -translate-x-1/2 translate-y-3'
                     aria-hidden='true'
                   ></div>
                   <div
-                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
+                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-snow-900 rounded-full ml-20 transform -translate-x-1/2'
                     aria-hidden='true'
                   ></div>
                   <h4 className='h4'>
                     JHL was founded by Joseph H. Lowenstein
                   </h4>
                 </div>
-                <p className='text-lg text-gray-400'>
+                <p className='text-lg text-snow-400'>
                   WITH ONLY A FEW YEARS of work experience at S.B Kraus, a local
                   paint sore, and five hundred dollars in his pocket, Joseph
                   opens his own paint store at 33 Throop Ave, Brooklyn, New
@@ -67,16 +67,16 @@ export default function Timeline() {
                     1920s
                   </div>
                   <div
-                    className='absolute left-0 h-full px-px bg-gray-800 ml-20 self-start transform -translate-x-1/2 translate-y-3'
+                    className='absolute left-0 h-full px-px bg-snow-800 ml-20 self-start transform -translate-x-1/2 translate-y-3'
                     aria-hidden='true'
                   ></div>
                   <div
-                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
+                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-snow-900 rounded-full ml-20 transform -translate-x-1/2'
                     aria-hidden='true'
                   ></div>
                   <h4 className='h4'>A Star Grows in Brooklyn</h4>
                 </div>
-                <p className='text-lg text-gray-400'>
+                <p className='text-lg text-snow-400'>
                   BY THE 1920s Jos H. Lowenstein is firmly established and moves
                   his business to 19 Wyckoff Avenue, Brooklyn, New York where he
                   has access to a large warehouse and office facilities.
@@ -98,16 +98,16 @@ export default function Timeline() {
                     1950s
                   </div>
                   <div
-                    className='absolute left-0 h-full px-px bg-gray-800 ml-20 self-start transform -translate-x-1/2 translate-y-3'
+                    className='absolute left-0 h-full px-px bg-snow-800 ml-20 self-start transform -translate-x-1/2 translate-y-3'
                     aria-hidden='true'
                   ></div>
                   <div
-                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
+                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-snow-900 rounded-full ml-20 transform -translate-x-1/2'
                     aria-hidden='true'
                   ></div>
                   <h4 className='h4'>Revolutionizing Color Formulation</h4>
                 </div>
-                <p className='text-lg text-gray-400'>
+                <p className='text-lg text-snow-400'>
                   Embracing the 1950s Technological Wave: Meet Steve Lowenstein,
                   A Visionary Chairman Continuing the Legacy of Color Innovation
                   at Jos.H. Lowenstein and Sons.
@@ -129,7 +129,7 @@ export default function Timeline() {
                     1970s
                   </div>
                   <div
-                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
+                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-snow-900 rounded-full ml-20 transform -translate-x-1/2'
                     aria-hidden='true'
                   ></div>
                   <h4 className='h4'>
@@ -137,7 +137,7 @@ export default function Timeline() {
                     Steve Lowenstein's Vision Unites Continents
                   </h4>
                 </div>
-                <p className='text-lg text-gray-400'>
+                <p className='text-lg text-snow-400'>
                   Leading JHL into a Global Future, Steve continues his vision
                   of JHL as a multinational company and establishes a strong
                   foreign-trade presence in Asia, Europe, Australia, the Middle
@@ -160,7 +160,7 @@ export default function Timeline() {
                     1990s
                   </div>
                   <div
-                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2'
+                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-snow-900 rounded-full ml-20 transform -translate-x-1/2'
                     aria-hidden='true'
                   ></div>
                   <h4 className='h4'>
@@ -169,7 +169,7 @@ export default function Timeline() {
                     Lowenstein
                   </h4>
                 </div>
-                <p className='text-lg text-gray-400'>
+                <p className='text-lg text-snow-400'>
                   In 1995, David Lowenstein, the eldest of Steve's two sons,
                   joined the family tradition and brought his expertise in
                   leather technology from post-graduate studies in North

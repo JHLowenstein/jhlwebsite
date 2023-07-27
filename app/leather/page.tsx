@@ -9,7 +9,7 @@ export const metadata = {
 
 import Hero from '@/app/leather/components/hero'
 import React from 'react'
-import Particles from '@/app/leather/components/particles'
+import Particles from '@/app/(default)/components/particles'
 import Content from '@/app/leather/components/content'
 
 export default function Leather() {

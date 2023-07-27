@@ -8,10 +8,10 @@ export const metadata = {
 }
 
 import React from 'react'
-import Particles from '@/app/hair/components/particles'
-import Hero from '@/app/hair/services/components/hero'
+import Particles from '@/app/(default)/components/particles'
+import Hero from '@/app/(default)/components/services/serviceHero'
 import ServiceImages from '@/app/(default)/components/imageMosaic'
-import ContentA from '@/app/hair/services/components/contentA'
+import ContentA from '@/app/(default)/components/services/serviceContent'
 
 export default function HairServices() {
   return (

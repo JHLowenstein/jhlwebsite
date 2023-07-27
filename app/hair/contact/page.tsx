@@ -8,12 +8,10 @@ export const metadata = {
 }
 import React from 'react'
 
-import Hero from '@/app/hair/contact/components/hero'
-import ContactSection from '@/app/hair/contact/components/content'
-import Countries from '@/app/(default)/components/countries'
+import Hero from '@/app/(default)/components/contact/contactHero'
+import ContactSection from '@/app/(default)/components/contact/contactContent'
 import Contact from '@/app/(default)/components/form'
-
-import Particles from '@/app/hair/components/particles'
+import Particles from '@/app/(default)/components/particles'
 
 export default function HairContact() {
   return (

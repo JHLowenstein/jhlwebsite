@@ -56,14 +56,14 @@ export default function Hero() {
             </h1>
 
             <h3
-              className='h3 text-gray-400 mb-1'
+              className='h3 text-snow-400 mb-1'
               data-aos='fade-up'
               data-aos-delay='200'
             >
               Fashion Begins in Our Color Labs
             </h3>
             <h5
-              className='h5 text-gray-500 mb-1'
+              className='h5 text-snow-500 mb-1'
               data-aos='fade-up'
               data-aos-delay='200'
             >

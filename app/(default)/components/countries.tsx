@@ -8,11 +8,6 @@ import WorldImage from '@/public/images/worldmap.png'
 import UserImage01 from '@/public/images/hex1.png'
 import UserImage02 from '@/public/images/hex1.png'
 import UserImage03 from '@/public/images/hex1.png'
-import UserImage04 from '@/public/images/hex1.png'
-import UserImage05 from '@/public/images/hex1.png'
-import UserImage06 from '@/public/images/hex1.png'
-import UserImage07 from '@/public/images/hex1.png'
-import UserImage08 from '@/public/images/hex1.png'
 
 export default function TestimonialsCarousel() {
   const [active, setActive] = useState<number>(0)
@@ -36,7 +31,7 @@ export default function TestimonialsCarousel() {
         'JHL caters to a wide range of clients based in the United States, Mexico and Puerto Rico.',
       name: 'NORTH AMERICA',
       font1: 'text-rose-500',
-      font2: 'text-lg text-gray-400 font-semibold',
+      font2: 'text-lg text-snow-400 font-medium',
     },
     {
       img: UserImage02,
@@ -45,7 +40,7 @@ export default function TestimonialsCarousel() {
         'JHL caters to a wide range of clients based in Argentina, Brazil, Colombia, Ecuador and Venezuela',
       name: 'SOUTH AMERICA',
       font1: 'text-orange-500 not-italic',
-      font2: 'text-lg text-gray-400 font-semibold',
+      font2: 'text-lg text-snow-400 font-medium',
     },
     {
       img: UserImage03,
@@ -54,15 +49,16 @@ export default function TestimonialsCarousel() {
         'JHL caters to a wide range of clients based in Belarus, China, Hong Kong, India, Indonesia, Israel, Japan, Korea, Lebanon, Malaysia, Philippines, Pakistan, Russia, Singapore, Sri Lanka, Turkey, Taiwan, Thailand and Vietnam',
       name: 'ASIA/ MIDDLE EAST',
       font1: 'text-emerald-500',
-      font2: 'text-lg text-gray-400 font-semibold ',
+      font2: 'text-lg text-snow-400 font-medium ',
     },
     {
       img: UserImage03,
       alt: 'Australia',
-      quote: 'JHL caters to a wide range of clients based throughout Australia',
+      quote:
+        'JHL is proud to cater to a wide range of clients based throughout Australia and surrounding islands',
       name: 'Australia',
       font1: 'text-sky-500',
-      font2: 'text-lg text-gray-400 font-semibold',
+      font2: 'text-lg text-snow-400 font-medium',
     },
     {
       img: UserImage03,
@@ -71,7 +67,7 @@ export default function TestimonialsCarousel() {
         'JHL caters to a wide range of clients based in France, Germany, Greece, Italy, Netherlands, Switzerland, Spain, United Kingdom, Bulgaria, Poland, Romania',
       name: 'Europe',
       font1: 'text-amber-500',
-      font2: 'text-lg text-gray-400 font-semibold',
+      font2: 'text-lg text-snow-400 font-medium',
     },
     {
       img: UserImage03,
@@ -80,7 +76,7 @@ export default function TestimonialsCarousel() {
         'JHL caters to a wide range of clients based throughout Egypt and South Africa',
       name: 'Africa',
       font1: 'text-violet-500',
-      font2: 'text-lg text-gray-400 font-semibold',
+      font2: 'text-lg text-snow-400 font-medium',
     },
   ]
 
@@ -106,7 +102,7 @@ export default function TestimonialsCarousel() {
   return (
     <section>
       <div className='max-w-6xl mx-auto px-4 sm:px-6'>
-        <div className='py-12 md:py-20 border-t border-gray-800'>
+        <div className='py-12 md:py-20 border-t border-gray-700'>
           {/* Section header */}
           <div
             className='max-w-3xl mx-auto text-center pb-12 md:pb-16'
@@ -122,7 +118,7 @@ export default function TestimonialsCarousel() {
               </span>
             </h2>
             <p
-              className='text-xl text-center  max-w-4l font-semibold text-gray-400 my-10'
+              className='text-lg text-center  max-w-4l font-medium text-snow-400 my-10'
               data-aos='fade-up'
             >
               We have a widespread network of distributors, partners, and
@@ -135,7 +131,7 @@ export default function TestimonialsCarousel() {
 
           {/* Check list */}
           <div className='max-w-3xl mx-auto pb-16'>
-            <ul className='flex flex-col sm:flex-row flex-wrap justify-center items-center text-lg text-gray-400 -mx-3 -my-2'>
+            <ul className='flex flex-col sm:flex-row flex-wrap justify-center items-center text-lg text-snow-400 -mx-3 -my-2'>
               <li
                 className='flex items-center mx-3 my-2'
                 data-aos='fade-up'
@@ -290,7 +286,7 @@ export default function TestimonialsCarousel() {
                   data-aos='fade-up'
                 >
                   <circle
-                    className='fill-current text-amber-500 opacity-60'
+                    className='fill-current text-amber-500 opacity-70'
                     cx='12'
                     cy='12'
                     r='12'
@@ -321,7 +317,7 @@ export default function TestimonialsCarousel() {
                   data-aos='fade-up'
                 >
                   <circle
-                    className='fill-current text-rose-500 opacity-60'
+                    className='fill-current text-rose-500 opacity-70'
                     cx='12'
                     cy='12'
                     r='12'
@@ -336,7 +332,7 @@ export default function TestimonialsCarousel() {
                   data-aos='fade-up'
                 >
                   <circle
-                    className='fill-current text-orange-500 opacity-60'
+                    className='fill-current text-orange-500 opacity-70'
                     cx='12'
                     cy='12'
                     r='12'
@@ -351,7 +347,7 @@ export default function TestimonialsCarousel() {
                   data-aos='fade-up'
                 >
                   <circle
-                    className='fill-current text-violet-500 opacity-60'
+                    className='fill-current text-violet-500 opacity-70'
                     cx='12'
                     cy='12'
                     r='12'
@@ -366,7 +362,7 @@ export default function TestimonialsCarousel() {
                   data-aos='fade-up'
                 >
                   <circle
-                    className='fill-current text-sky-500 opacity-60'
+                    className='fill-current text-sky-500 opacity-70'
                     cx='12'
                     cy='12'
                     r='12'

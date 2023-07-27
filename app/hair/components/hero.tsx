@@ -65,7 +65,7 @@ export default function Hero() {
                 data-aos-delay='200'
               />
               <h3
-                className='h3 text-gray-400 mb-1 mt-10'
+                className='h3 text-snow-300 mb-10 mt-10'
                 data-aos='fade-up'
                 data-aos-delay='200'
               >
@@ -73,14 +73,14 @@ export default function Hero() {
                 manufacturer.
               </h3>
 
-              <h4
-                className='h4 text-gray-500 mb-5'
+              {/* <h4
+                className='text-xl text-snow-400 font-semibold mb-10'
                 data-aos='fade-up'
                 data-aos-delay='200'
               >
                 Our technical staff is well versed in all phases of the hair
                 color formulator’s requirements.
-              </h4>
+              </h4> */}
             </div>
             <div className='max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center '>
               <div data-aos='fade-up' data-aos-delay='400'>

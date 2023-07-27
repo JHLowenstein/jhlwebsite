@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { SetStateAction, useEffect, useState } from 'react'
+
 import MobileMenu from './mobile-menu'
 import Logo from '@/public/images/jhlLogo.svg'
 
@@ -16,8 +17,8 @@ export default function Header() {
   useEffect(() => {
     window.addEventListener('scroll', handleStickyNavbar)
   })
+
   return (
-    // <header className='absolute w-full z-30'>
     <header
       className={`header  z-40  w-full items-center bg-transparent ${
         sticky
@@ -30,12 +31,12 @@ export default function Header() {
           {/* Site branding */}
           <div className='shrink-0 mr-4'>
             {/* Logo */}
-            <Link href='/' className='block' aria-label='JHL Logo'>
+            <Link href='/hair' className='block' aria-label='JHL Logo'>
               <Image
                 alt='logo'
                 src={Logo}
                 width={125}
-                style={{ opacity: '90%' }}
+                style={{ opacity: '80%' }}
               />
             </Link>
           </div>
@@ -46,44 +47,37 @@ export default function Header() {
             <ul className='flex grow justify-end flex-wrap items-center'>
               <li>
                 <Link
-                  href='/hair'
+                  href='/hair/company'
                   className='font-medium text-snow-400 hover:text-gray-400 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  <span className='font-bold '>Hair</span>
+                  <span className='font-bold'>Company</span>
                 </Link>
               </li>
               <li>
                 <Link
-                  href='/'
+                  href='/hair/products'
                   className='font-medium text-snow-400 hover:text-gray-400 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  <span className='font-bold '>Fur</span>
+                  <span className='font-bold'>Products</span>
                 </Link>
               </li>
               <li>
                 <Link
-                  href='/'
-                  className='font-medium text-snow-400 hover:text-gray-400 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  href='/hair/services'
+                  className='font-medium font-bold text-snow-400 hover:text-gray-400 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
-                  <span className='font-bold'>Leather</span>
+                  <span className='font-bold'>Services</span>
                 </Link>
               </li>
-              {/* <li>
+              <li>
                 <Link
-                  href='/'
-                  className='font-medium text-zinc-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  href='/hair/contact'
+                  className='font-medium text-snow-400 hover:text-gray-400 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
                   <span className='font-bold'>Contact</span>
                 </Link>
-              </li> */}
-              <li>
-                {/* <Link
-                  href='/signup'
-                  className='btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3'
-                >
-                  Sign up
-                </Link> */}
               </li>
+              <li></li>
             </ul>
           </nav>
 

@@ -13,7 +13,7 @@ export default function Contact() {
               <div className='flex flex-wrap -mx-3 mb-4'>
                 <div className='w-full md:w-1/2 px-3 mb-4 md:mb-0'>
                   <label
-                    className='block text-gray-300 text-sm font-medium mb-1'
+                    className='block text-snow-300 text-sm font-medium mb-1'
                     htmlFor='first-name'
                   >
                     First Name <span className='text-red-600'>*</span>
@@ -21,13 +21,13 @@ export default function Contact() {
                   <input
                     id='first-name'
                     type='text'
-                    className='form-input w-full text-gray-300 '
+                    className='form-input w-full text-snow-300 '
                     placeholder='Enter your first name'
                   />
                 </div>
                 <div className='w-full md:w-1/2 px-3'>
                   <label
-                    className='block text-gray-300 text-sm font-medium mb-1'
+                    className='block text-snow-300 text-sm font-medium mb-1'
                     htmlFor='last-name'
                   >
                     Last Name <span className='text-red-600'>*</span>
@@ -35,7 +35,7 @@ export default function Contact() {
                   <input
                     id='last-name'
                     type='text'
-                    className='form-input w-full text-gray-300'
+                    className='form-input w-full text-snow-300'
                     placeholder='Enter your last name'
                   />
                 </div>
@@ -43,7 +43,7 @@ export default function Contact() {
               <div className='flex flex-wrap -mx-3 mb-4'>
                 <div className='w-full px-3'>
                   <label
-                    className='block text-gray-300 text-sm font-medium mb-1'
+                    className='block text-snow-300 text-sm font-medium mb-1'
                     htmlFor='email'
                   >
                     Email <span className='text-red-600'>*</span>
@@ -51,7 +51,7 @@ export default function Contact() {
                   <input
                     id='email'
                     type='email'
-                    className='form-input w-full text-gray-300'
+                    className='form-input w-full text-snow-300'
                     placeholder='Enter your email address'
                     required
                   />
@@ -60,7 +60,7 @@ export default function Contact() {
               <div className='flex flex-wrap -mx-3 mb-4'>
                 <div className='w-full px-3'>
                   <label
-                    className='block text-gray-300 text-sm font-medium mb-1'
+                    className='block text-snow-300 text-sm font-medium mb-1'
                     htmlFor='subject'
                   >
                     Subject <span className='text-red-600'>*</span>
@@ -68,7 +68,7 @@ export default function Contact() {
                   <input
                     id='subject'
                     type='text'
-                    className='form-input w-full text-gray-300'
+                    className='form-input w-full text-snow-300'
                     placeholder='How can we help you?'
                     required
                   />
@@ -77,14 +77,14 @@ export default function Contact() {
               <div className='flex flex-wrap -mx-3 mb-4'>
                 <div className='w-full px-3'>
                   <label
-                    className='block text-gray-300 text-sm font-medium mb-1'
+                    className='block text-snow-300 text-sm font-medium mb-1'
                     htmlFor='country'
                   >
                     Country
                   </label>
                   <select
                     id='country'
-                    className='form-select w-full text-gray-300'
+                    className='form-select w-full text-snow-300'
                   >
                     <option>United States</option>
                     <option>Argentina</option>
@@ -131,7 +131,7 @@ export default function Contact() {
               <div className='flex flex-wrap -mx-3 mb-4'>
                 <div className='w-full px-3'>
                   <label
-                    className='block text-gray-300 text-sm font-medium mb-1'
+                    className='block text-snow-300 text-sm font-medium mb-1'
                     htmlFor='message'
                   >
                     Message
@@ -139,7 +139,7 @@ export default function Contact() {
                   <textarea
                     id='message'
                     rows={4}
-                    className='form-textarea w-full text-gray-300'
+                    className='form-textarea w-full text-snow-300'
                     placeholder='Write your message'
                   ></textarea>
                 </div>

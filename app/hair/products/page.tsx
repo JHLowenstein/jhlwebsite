@@ -8,11 +8,11 @@ export const metadata = {
 }
 import React from 'react'
 
-import Hero from '@/app/hair/products/components/hero'
-import HairProducts from '@/app/hair/products/components/hairProducts'
+import Hero from '@/app/(default)/components/hairProducts/hairProdHero'
+import HairProducts from '@/app/(default)/components/hairProducts/hairProducts'
 import MosaicImages from '@/app/(default)/components/imageMosaic'
 
-import Particles from '@/app/hair/components/particles'
+import Particles from '@/app/(default)/components/particles'
 
 export default function HairProductsf() {
   return (

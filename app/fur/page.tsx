@@ -9,7 +9,7 @@ export const metadata = {
 
 import Hero from '@/app/fur/components/hero'
 import React from 'react'
-import Particles from '@/app/fur/components/particles'
+import Particles from '@/app/(default)/components/particles'
 
 export default function Hair() {
   return (
