@@ -290,7 +290,7 @@ export default function TestimonialsCarousel() {
                   data-aos='fade-up'
                 >
                   <circle
-                    className='fill-current text-amber-500'
+                    className='fill-current text-amber-500 opacity-60'
                     cx='12'
                     cy='12'
                     r='12'
@@ -306,7 +306,7 @@ export default function TestimonialsCarousel() {
                   data-aos='fade-up'
                 >
                   <circle
-                    className='fill-current text-emerald-500'
+                    className='fill-current text-emerald-500 opacity-60'
                     cx='12'
                     cy='12'
                     r='12'
@@ -321,7 +321,7 @@ export default function TestimonialsCarousel() {
                   data-aos='fade-up'
                 >
                   <circle
-                    className='fill-current text-rose-500'
+                    className='fill-current text-rose-500 opacity-60'
                     cx='12'
                     cy='12'
                     r='12'
@@ -336,7 +336,7 @@ export default function TestimonialsCarousel() {
                   data-aos='fade-up'
                 >
                   <circle
-                    className='fill-current text-orange-500'
+                    className='fill-current text-orange-500 opacity-60'
                     cx='12'
                     cy='12'
                     r='12'
@@ -351,7 +351,7 @@ export default function TestimonialsCarousel() {
                   data-aos='fade-up'
                 >
                   <circle
-                    className='fill-current text-violet-500'
+                    className='fill-current text-violet-500 opacity-60'
                     cx='12'
                     cy='12'
                     r='12'
@@ -366,7 +366,7 @@ export default function TestimonialsCarousel() {
                   data-aos='fade-up'
                 >
                   <circle
-                    className='fill-current text-sky-500'
+                    className='fill-current text-sky-500 opacity-60'
                     cx='12'
                     cy='12'
                     r='12'
