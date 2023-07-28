@@ -9,21 +9,23 @@ export const metadata = {
 import React from 'react'
 
 import Hero from '@/app/(default)/components/leatherProducts/leatherProdHero'
-import LeatherProducts from '@/app/(default)/components/leatherProducts/leatherProducts'
+import HairProducts from '@/app/(default)/components/leatherProducts/leatherProducts'
+import MosaicImages from '@/app/(default)/components/imageMosaic'
+
 import Particles from '@/app/(default)/components/particles'
 
 export default function HairProductsf() {
   return (
     <>
+      <Hero />
+      <MosaicImages />
       <div className='flex flex-col items-center justify-center overflow-hidden '>
         <div className='hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0' />
         <Particles
           className='absolute inset-0 -z-10 animate-fade-in'
           quantity={100}
         />
-        <Hero />
-        {/* <HairProducts /> */}
-        <LeatherProducts />
+        <HairProducts />
       </div>
     </>
   )

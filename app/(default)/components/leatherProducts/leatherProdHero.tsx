@@ -27,7 +27,7 @@ export default function Hero() {
             <h1 className='h1 mb-10' data-aos='fade-up' data-aos-delay='200'>
               Explore the{' '}
               <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
-                Hair Products
+                Leather Products
               </span>{' '}
               <br />
               offered at JHL
