@@ -6,14 +6,10 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 import PageIllustration from '@/app/fur/components/page-illustration'
-import Header from '@/app/fur/components/ui/header'
+import Header from '@/app/(default)/components/ui/furHeader'
 import Footer from '@/app/fur/components/ui/footer'
 
-export default function HairLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function FurLayout({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     AOS.init({
       once: true,

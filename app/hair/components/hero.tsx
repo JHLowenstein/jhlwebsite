@@ -65,7 +65,7 @@ export default function Hero() {
                 data-aos-delay='200'
               />
               <h3
-                className='h3 text-snow-300 mb-10 mt-10'
+                className='h3 text-gray-300 mb-10 mt-10'
                 data-aos='fade-up'
                 data-aos-delay='200'
               >

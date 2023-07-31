@@ -30,7 +30,7 @@ export default function Content() {
               >
                 <div className='md:pr-4 lg:pr-12 xl:pr-16'>
                   <h3 className='h3 mb-3 text-rose-500'>Dye Intermediates</h3>
-                  <p className='text-lg text-snow-400 font-medium'>
+                  <p className='text-lg text-gray-300 font-semibold'>
                     For permanent hair color are available, along with specially
                     formulated bases and developers. The base materials for
                     cream and liquid formulations are designed for maximum color

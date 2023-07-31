@@ -24,7 +24,7 @@ const CardSection: React.FC<CardSectionProps> = ({
         data-aos='fade-up'
       >
         <div className='mb-4'>
-          <h3 className='flex items-center md:gap-3 text-snow-50 font-display text-2xl font-medium leading-none'></h3>
+          <h3 className='flex items-center md:gap-3 text-gray-300 font-display text-2xl font-medium leading-none'></h3>
           <Image
             src={imgSrc}
             alt={imgAlt}
@@ -35,7 +35,7 @@ const CardSection: React.FC<CardSectionProps> = ({
 
           <div className='text-snow-700 font-medium mt-6 pt-5 border-t border-gray-700'>
             <a
-              className={`btn rounded-lg text-white ${color}   w-full mb-4 sm:w-auto sm:mb-0`}
+              className={`btn rounded-lg text-gray-200 ${color}   w-full mb-4 sm:w-auto sm:mb-0`}
               href={link}
             >
               <h5 className='font-bold'>{title}</h5>

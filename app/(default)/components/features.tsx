@@ -4,7 +4,6 @@ import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
 import FeaturesBg from '@/public/images/testimonial-02.jpg'
-import FeaturesElement from '@/public/images/testimonial-01.jpg'
 
 export default function Features() {
   const [tab, setTab] = useState<number>(1)

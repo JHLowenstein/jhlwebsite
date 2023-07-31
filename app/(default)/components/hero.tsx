@@ -48,6 +48,13 @@ export default function Hero() {
         {/* Hero content */}
         <div className='relative pt-100  mt7 md:pt-40'>
           <div className='max-w-3xl mx-auto text-center '>
+            <h3
+              className='h3 text-gray-300 mb-1'
+              data-aos='fade-up'
+              data-aos-delay='200'
+            >
+              Fashion Begins in Our Color Labs
+            </h3>
             <h1
               className='h1 mb-4 z-10 text-[10rem] text-transparent duration-1000  cursor-default  animate-title  whitespace-nowrap bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700  inline-flex flex-col gap-4 transition font-display  font-bold leading-none'
               data-aos='fade-up'
@@ -55,15 +62,8 @@ export default function Hero() {
               JHL
             </h1>
 
-            <h3
-              className='h3 text-snow-400 mb-1'
-              data-aos='fade-up'
-              data-aos-delay='200'
-            >
-              Fashion Begins in Our Color Labs
-            </h3>
             <h5
-              className='h5 text-snow-500 mb-1'
+              className='h5 text-gray-300 mb-1'
               data-aos='fade-up'
               data-aos-delay='200'
             >
