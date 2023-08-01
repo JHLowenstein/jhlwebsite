@@ -46,10 +46,10 @@ export default function Content() {
                   data-aos='fade-right'
                 >
                   <div className='md:pr-4 lg:pr-12 xl:pr-16'>
-                    <h3 className='h3 mb-3 cursor-default text-snow-300'>
+                    <h3 className='h3 mb-3 cursor-default text-gray-300'>
                       Our Story
                     </h3>
-                    <p className='text-snow-400 mb-4  text-lg font-medium'>
+                    <p className='text-gray-200 mb-4  text-lg font-semibold'>
                       Since 1897, Jos. H. Lowenstein & Sons, Inc. has been
                       providing the world of fashion with brilliant,
                       trend-setting colors for the fur, hair and leather
@@ -85,8 +85,8 @@ export default function Content() {
                   data-aos='fade-left'
                 >
                   <div className='md:pl-4 lg:pl-12 xl:pl-16'>
-                    <h3 className='h3 mb-3 text-snow-300'>Valued Clients</h3>
-                    <p className='text-snow-400 mb-4  text-lg font-medium'>
+                    <h3 className='h3 mb-3 text-gray-200'>Valued Clients</h3>
+                    <p className='text-gray-200 mb-4  text-lg font-semibold'>
                       We are proud to serve a wide range of clients, from
                       multinational, world-renowned corporations to small,
                       privately held companies. Our diverse customer base is a
@@ -122,7 +122,7 @@ export default function Content() {
                 >
                   <div className='md:pr-4 lg:pr-12 xl:pr-16'>
                     <h3 className='h3 mb-3'>Customized Products</h3>
-                    <p className='text-snow-400 mb-4  text-lg font-medium'>
+                    <p className='text-gray-200 mb-4  text-lg font-semibold'>
                       At JHL, we understand that each customer has unique dyeing
                       needs. That's why our team of experienced chemists in all
                       our laboratories is readily available to assist you

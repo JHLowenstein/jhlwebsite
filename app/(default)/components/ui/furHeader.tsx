@@ -48,7 +48,7 @@ export default function Header() {
               <li>
                 <Link
                   href='/fur/company'
-                  className='font-medium text-snow-400 hover:text-gray-400 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  className='font-medium text-gray-200 hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
                   <span className='font-bold'>Company</span>
                 </Link>
@@ -56,7 +56,7 @@ export default function Header() {
               <li>
                 <Link
                   href='/fur/products'
-                  className='font-medium text-snow-400 hover:text-gray-400 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  className='font-medium text-gray-200 hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
                   <span className='font-bold'>Products</span>
                 </Link>
@@ -64,7 +64,7 @@ export default function Header() {
               <li>
                 <Link
                   href='/fur/services'
-                  className='font-medium font-bold text-snow-400 hover:text-gray-400 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  className='font-medium font-bold text-gray-200 hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
                   <span className='font-bold'>Services</span>
                 </Link>
@@ -72,7 +72,7 @@ export default function Header() {
               <li>
                 <Link
                   href='/fur/contact'
-                  className='font-medium text-snow-400 hover:text-gray-400 px-4 py-3 flex items-center transition duration-150 ease-in-out'
+                  className='font-medium text-gray-200 hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
                   <span className='font-bold'>Contact</span>
                 </Link>

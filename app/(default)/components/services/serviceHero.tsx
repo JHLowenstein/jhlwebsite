@@ -25,23 +25,23 @@ export default function Hero() {
       <div className='max-w-6xl mx-auto px-4 sm:px-6 relative'>
         <div className='pt-32 pb-12 md:pt-40 md:pb-20'>
           <div className='max-w-3xl mx-auto text-center'>
-            <h1 className='h1 mb-8' data-aos='fade-up'>
+            <h1 className='h1 mb-8 ' data-aos='fade-up'>
               Discover the{' '}
               <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
-                Hair Services
+                Services
               </span>{' '}
               offered by the staff at JHL
             </h1>
-            {/* 
+
             <p
-              className='text-xl text-snow-400 mb-8'
+              className='text-xl font-semibold text-gray-300 mb-8'
               data-aos='fade-up'
               data-aos-delay='200'
             >
               Our team of expert chemists and technical staff is dedicated to
               delivering exceptional color formulation services, ensuring a
               captivating and satisfying experience for our valued clients.
-            </p> */}
+            </p>
           </div>
         </div>
       </div>

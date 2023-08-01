@@ -62,7 +62,7 @@ export default function Hero() {
               data-aos-delay='200'
             />
             <h3
-              className='h3 text-gray-400 mb-1 mt-10'
+              className='h3 text-snow-100 mb-10 mt-10'
               data-aos='fade-up'
               data-aos-delay='200'
             >
@@ -70,17 +70,17 @@ export default function Hero() {
               dyeing and processing.
             </h3>
 
-            <h4
+            {/* <h4
               className='h4 text-gray-500 mb-5'
               data-aos='fade-up'
               data-aos-delay='200'
             >
               JHL is the world leader in fur technology.
-            </h4>
-            <div className='max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center mb-20'>
+            </h4> */}
+            <div className='max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center mb-4'>
               <div data-aos='fade-up' data-aos-delay='400'>
                 <a
-                  className='btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4
+                  className='btn text-white  font-bold rounded-lg bg-emerald-500 hover:bg-emerald-600 w-full mb-4
 sm:w-auto sm:mb-0'
                   href='/fur/products'
                 >
@@ -89,40 +89,12 @@ sm:w-auto sm:mb-0'
               </div>
               <div data-aos='fade-up' data-aos-delay='600'>
                 <a
-                  className='btn text-white bg-gray-700 hover:bg-gray-800 w-full
-sm:w-auto sm:ml-4'
-                  href='#0'
+                  className='btn text-white font-bold bg-gray-700 hover:bg-gray-800 w-full
+sm:w-auto sm:ml-4 rounded-lg'
+                  href='/fur/services'
                 >
                   Services
                 </a>
-              </div>
-            </div>
-            <div className='flex flex-col md:flex-row '>
-              <div className='md:w-1/2 mt-10'>
-                <h4
-                  className='h4 text-xl text-gray-400 my-10'
-                  data-aos='fade-up'
-                  data-aos-delay='200'
-                >
-                  <span className='text-green-500'>
-                    FROM SINGLE, DOUBLE & TRIPLE REINFORCING,
-                  </span>
-                  to oxidation dyeing to bright acid dyeing for sheepskin and
-                  fine furs, such as mink, fox or sable, our technological
-                  expertise and creative flair has distinguished JHL as the
-                  leading supplier to the world’s fur dressers and dyers.
-                </h4>
-              </div>
-              <div className='md:w-1/2 my-20 mx-5'>
-                <Image
-                  alt='JHL Hair Model'
-                  src={HairDye}
-                  width='500'
-                  height='375'
-                  style={{ margin: 'auto' }}
-                  data-aos='fade-up'
-                  data-aos-delay='200'
-                />
               </div>
             </div>
           </div>

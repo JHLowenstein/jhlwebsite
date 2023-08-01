@@ -29,7 +29,7 @@ export default function HairCompany() {
         <ContentA />
         {/* <Timeline /> */}
         <ContentB />
-        <Countries />
+
         <ContentC />
       </div>
     </section>

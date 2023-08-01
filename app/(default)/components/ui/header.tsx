@@ -54,7 +54,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href='/'
+                  href='/fur'
                   className='font-medium text-snow-400 hover:text-gray-400 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
                   <span className='font-bold '>Fur</span>
@@ -62,7 +62,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href='/'
+                  href='/leather'
                   className='font-medium text-snow-400 hover:text-gray-400 px-4 py-3 flex items-center transition duration-150 ease-in-out'
                 >
                   <span className='font-bold'>Leather</span>

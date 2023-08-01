@@ -14,13 +14,13 @@ export default function Content() {
             {/* Section header */}
             <div className='max-w-4xl mx-auto  pb-12 md:pb-16 text-center'>
               {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}
-              <h2 className='h2' data-aos='fade-up' data-aos-delay='200'>
+              <h3 className='h3' data-aos='fade-up' data-aos-delay='200'>
                 Our technical staff is well versed in all phases of the{' '}
                 <span className='text-transparent bg-clip-text  bg-gradient-to-r from-rose-600 via-amber-400 to-blue-700 '>
-                  Hair Color Formulator’s
+                  Color Formulator’s
                 </span>{' '}
                 requirements.
-              </h2>
+              </h3>
             </div>
             {/* Items */}
             <div className='grid gap-20'>
@@ -45,10 +45,10 @@ export default function Content() {
                   data-aos='fade-right'
                 >
                   <div className='md:pr-4 lg:pr-12 xl:pr-16'>
-                    <h3 className='h3 mb-3 cursor-default text-snow-300'>
+                    <h3 className='h3 mb-3 cursor-default text-gray-300'>
                       Service, Quality and Value
                     </h3>
-                    <p className='text-snow-400 mb-4 font-bold text-xl'>
+                    <p className='text-gray-200 mb-4 font-semibold text-xl'>
                       <span className='text-rose-500'>
                         JHL HAS DEDICATED ITSELF
                       </span>{' '}
@@ -88,11 +88,11 @@ export default function Content() {
                   data-aos='fade-left'
                 >
                   <div className='md:pl-4 lg:pl-12 xl:pl-16'>
-                    <h3 className='h3 mb-3 text-snow-300'>
+                    <h3 className='h3 mb-3 text-gray-300'>
                       Leading Edge Color Technology
                     </h3>
-                    <p className='text-snow-400 mb-4 font-bold text-xl'>
-                      <span className='text-rose-500'>
+                    <p className='text-gray-200 mb-4 font-semibold text-xl'>
+                      <span className='text-emerald-500'>
                         OUR EXPERT CHEMISTS AND TECHNICAL STAFF,
                       </span>{' '}
                       from around the world, respond quickly and accurately to
@@ -135,8 +135,8 @@ export default function Content() {
                     <h3 className='h3 mb-3'>
                       Specialized Services For Hair Formulators
                     </h3>
-                    <p className='text-snow-400 mb-4 font-bold text-xl'>
-                      <span className='text-rose-500'>
+                    <p className='text-gray-200 mb-4 font-semibold text-xl'>
+                      <span className='text-violet-500'>
                         IN ADDITION TO THE COMPREHENSIVE SERVICE AND SUPPORT
                       </span>{' '}
                       provided to our customers, JHL hair color specialists and
